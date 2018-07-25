@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">infoescola</string>
+    <string name="menu_item_lab_comp">Laboratórios de Informática</string>
+    <string name="menu_item_library">Bibliotecas</string>
+    <string name="menu_item_sports_court">Quadras Esportivas</string>
+    <string name="menu_item_accessibility">Acessibilidade</string>
+    <string name="menu_item_professional_edu">Educação Profissional</string>
+    <string name="menu_item_meals">Tem Refeiçōes</string>
+    <string name="menu_item_schools">Escolas Municipais de PE</string>
+    <string name="menu_item_show_schools">Listar Escolas</string>
+</resources>

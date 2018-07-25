@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">infoescola</string>
+    <string name="menu_item_lab_comp">Computer Labs</string>
+    <string name="menu_item_library">Libraries</string>
+    <string name="menu_item_sports_court">Sports Courts</string>
+    <string name="menu_item_accessibility">Accessibility</string>
+    <string name="menu_item_professional_edu">Professional Education</string>
+    <string name="menu_item_meals">Has Meals</string>
+    <string name="menu_item_schools">Public Schools from PE</string>
+    <string name="menu_item_show_schools">List Schools</string>
+</resources>
