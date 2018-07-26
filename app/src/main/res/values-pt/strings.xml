@@ -8,4 +8,6 @@
     <string name="menu_item_meals">Tem Refeiçōes</string>
     <string name="menu_item_schools">Escolas Municipais de PE</string>
     <string name="menu_item_show_schools">Listar Escolas</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="school_detail_about">Detalhes sobre a escola</string>
 </resources>

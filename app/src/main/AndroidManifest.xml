@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rafaelbarreto.infoescola">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,13 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LabComputacaoListaActivity" android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LabComputacaoListaActivity"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".BibliotecaListaActivity" />
         <activity android:name=".QuadraListaActivity" />
         <activity android:name=".AcessibilidadeListaActivity" />
         <activity android:name=".EducacaoProfissionalActivity" />
         <activity android:name=".RefeicoesListaActivity" />
-        <activity android:name=".EscolasMunicListaActivity"></activity>
+        <activity android:name=".EscolasMunicListaActivity" />
+        <activity android:name=".EscolaDetalheActivity"></activity>
     </application>
 
 </manifest>
