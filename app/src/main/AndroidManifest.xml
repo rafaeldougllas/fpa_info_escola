@@ -21,13 +21,20 @@
         <activity
             android:name=".LabComputacaoListaActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".BibliotecaListaActivity" />
-        <activity android:name=".QuadraListaActivity" />
-        <activity android:name=".AcessibilidadeListaActivity" />
+        <activity android:name=".BibliotecaListaActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".QuadraListaActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".AcessibilidadeListaActivity"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".EducacaoProfissionalActivity" />
-        <activity android:name=".RefeicoesListaActivity" />
-        <activity android:name=".EscolasMunicListaActivity" />
-        <activity android:name=".EscolaDetalheActivity"></activity>
+        <activity android:name=".RefeicoesListaActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".EscolasMunicListaActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".EscolaDetalheActivity" />
+        <activity android:name=".EducacaoProfissionalListaActivity"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

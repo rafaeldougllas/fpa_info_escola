@@ -48,12 +48,12 @@ class MainActivity : AppCompatActivity() {
         val intent: Intent
         when (item_menu){
             lab_comp_card_id -> intent = Intent(this, LabComputacaoListaActivity::class.java)
-            biblioteca_card_id -> intent = Intent(this, biblioteca_card_id::class.java)
-            quadra_card_id -> intent = Intent(this, quadra_card_id::class.java)
-            acessibilidade_card_id -> intent = Intent(this, acessibilidade_card_id::class.java)
-            educacao_profissional_card_id -> intent = Intent(this, educacao_profissional_card_id::class.java)
-            refeicoes_card_id -> intent = Intent(this, refeicoes_card_id::class.java)
-            escolas_munic_card_id -> intent = Intent(this, escolas_munic_card_id::class.java)
+            biblioteca_card_id -> intent = Intent(this, BibliotecaListaActivity::class.java)
+            quadra_card_id -> intent = Intent(this, QuadraListaActivity::class.java)
+            acessibilidade_card_id -> intent = Intent(this, AcessibilidadeListaActivity::class.java)
+            educacao_profissional_card_id -> intent = Intent(this, EducacaoProfissionalListaActivity::class.java)
+            refeicoes_card_id -> intent = Intent(this, RefeicoesListaActivity::class.java)
+            escolas_munic_card_id -> intent = Intent(this, EscolasMunicListaActivity::class.java)
             else -> intent = Intent(this, LabComputacaoListaActivity::class.java)
         }
         context.startActivity(intent)

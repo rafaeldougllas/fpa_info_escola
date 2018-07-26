@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">infoescola</string>
+    <string name="app_name">Public Schools Info</string>
     <string name="menu_item_lab_comp">Computer Labs</string>
     <string name="menu_item_library">Libraries</string>
     <string name="menu_item_sports_court">Sports Courts</string>
