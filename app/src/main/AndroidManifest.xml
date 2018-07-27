@@ -3,6 +3,8 @@
     package="com.rafaelbarreto.infoescola">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -18,8 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".LabComputacaoListaActivity"
+        <activity android:name=".LabComputacaoListaActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".BibliotecaListaActivity"
             android:parentActivityName=".MainActivity"/>
@@ -27,14 +28,14 @@
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".AcessibilidadeListaActivity"
             android:parentActivityName=".MainActivity"/>
-        <activity android:name=".EducacaoProfissionalActivity" />
         <activity android:name=".RefeicoesListaActivity"
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".EscolasMunicListaActivity"
             android:parentActivityName=".MainActivity"/>
-        <activity android:name=".EscolaDetalheActivity" />
         <activity android:name=".EducacaoProfissionalListaActivity"
             android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".EducacaoProfissionalActivity" />
+        <activity android:name=".EscolaDetalheActivity" />
     </application>
 
 </manifest>

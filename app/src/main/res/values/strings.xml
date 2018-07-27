@@ -3,11 +3,13 @@
     <string name="menu_item_lab_comp">Computer Labs</string>
     <string name="menu_item_library">Libraries</string>
     <string name="menu_item_sports_court">Sports Courts</string>
-    <string name="menu_item_accessibility">Accessibility</string>
+    <string name="menu_item_accessibility">Special Attention</string>
     <string name="menu_item_professional_edu">Professional Education</string>
     <string name="menu_item_meals">Has Meals</string>
     <string name="menu_item_schools">Public Schools from PE</string>
     <string name="menu_item_show_schools">List Schools</string>
     <string name="thumbnail">thumbnail</string>
     <string name="school_detail_about">Details about the school</string>
+    <string name="address">Address</string>
+    <string name="btn_how_get_there">How to get there ?</string>
 </resources>

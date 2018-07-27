@@ -21,14 +21,9 @@ class LabComputacaoListaActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         //Creating a listview and filling with datas
+        val schoolList = getDatas()
+
         listView = findViewById<ListView>(R.id.school_list_view_comp)
-
-        val schoolObj1 = Escola("Escola 1","Rua ali do lado da esquina 99","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")
-        val schoolObj2 = Escola("Escola 2","Rua atras do posto ribeiro da esquina 403","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")
-        val schoolList = ArrayList<Escola>()
-        schoolList.add(schoolObj1)
-        schoolList.add(schoolObj2)
-
         val adapter = EscolaAdapter(this, schoolList)
         listView.adapter = adapter
 
@@ -36,13 +31,19 @@ class LabComputacaoListaActivity : AppCompatActivity() {
         listView.setOnItemClickListener { _, _, position, _ ->
             val selectedSchool = schoolList[position]
 
-            Log.d("RAFA","CLICOU EM "+selectedSchool)
-            //TODO APAGAR QUANDO FOR COLOCAR NOVA ACTIVITY
-            //val detailIntent = EscolaDetalheActivity.newIntent(context, selectedSchool)
             val detailIntent = Intent(this,EscolaDetalheActivity::class.java)
             detailIntent.putExtra("SCHOOL_OBJ_SELECTED",selectedSchool)
             startActivity(detailIntent)
         }
+    }
 
+    fun getDatas(): ArrayList<Escola> {
+        val schoolObj1 = Escola("Escola 9","Rua ali do lado da esquina 99","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")
+        val schoolObj2 = Escola("Escola 10","Rua atras do posto ribeiro da esquina 403","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")
+        val schoolList = ArrayList<Escola>()
+        schoolList.add(schoolObj1)
+        schoolList.add(schoolObj2)
+
+        return schoolList
     }
 }

@@ -6,10 +6,228 @@
     android:layout_height="match_parent"
     tools:context=".EscolaDetalheActivity">
 
-    <TextView
-        android:id="@+id/school_detail_name"
+    <RelativeLayout
+        android:id="@+id/relative_layout_detail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="detalhe"/>
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/detail_school_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="School Name" />
+
+        <TextView
+            android:id="@+id/detail_label_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_school_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:text="@string/address"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/detail_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_label_address"
+            android:layout_marginLeft="15dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="16sp"
+            tools:text="@string/address"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/detail_label_library"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_address"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:text="@string/menu_item_library"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/detail_library"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_label_library"
+            android:layout_marginLeft="15dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="16sp"
+            tools:text="@string/menu_item_library"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/detail_label_special_attention"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_library"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:text="@string/menu_item_accessibility"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/detail_special_attention"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_label_special_attention"
+            android:layout_marginLeft="15dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="16sp"
+            tools:text="@string/menu_item_accessibility"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/detail_label_lab_computer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_special_attention"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:text="@string/menu_item_lab_comp"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/detail_lab_computer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_label_lab_computer"
+            android:layout_marginLeft="15dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="16sp"
+            tools:text="@string/menu_item_lab_comp"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/detail_label_edu_profe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_lab_computer"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:text="@string/menu_item_professional_edu"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/detail_edu_profe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_label_edu_profe"
+            android:layout_marginLeft="15dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="16sp"
+            tools:text="@string/menu_item_professional_edu"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/detail_label_has_meals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_edu_profe"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:text="@string/menu_item_meals"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/detail_has_meals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_label_has_meals"
+            android:layout_marginLeft="15dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="16sp"
+            tools:text="@string/menu_item_meals"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/detail_label_sports_court"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_has_meals"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:text="@string/menu_item_sports_court"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/detail_sports_court"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_label_sports_court"
+            android:layout_marginLeft="15dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="16sp"
+            tools:text="@string/menu_item_sports_court"
+            android:layout_marginStart="15dp" />
+
+
+        <Button
+            android:id="@+id/button_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_sports_court"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/orange"
+            android:textColor="@color/backgroundcolor"
+            android:textStyle="bold"
+            android:text="@string/btn_how_get_there"/>
+
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
