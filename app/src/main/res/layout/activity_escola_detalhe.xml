@@ -215,7 +215,7 @@
 
 
         <Button
-            android:id="@+id/button_"
+            android:id="@+id/button_how_get_there"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/detail_sports_court"

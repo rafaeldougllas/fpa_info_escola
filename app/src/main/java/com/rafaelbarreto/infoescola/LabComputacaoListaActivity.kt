@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.support.v7.app.ActionBar
 import android.util.Log
 import android.widget.ListView
+import com.google.gson.*
 
 class LabComputacaoListaActivity : AppCompatActivity() {
 
@@ -38,11 +39,26 @@ class LabComputacaoListaActivity : AppCompatActivity() {
     }
 
     fun getDatas(): ArrayList<Escola> {
-        val schoolObj1 = Escola("Escola 9","Rua ali do lado da esquina 99","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")
-        val schoolObj2 = Escola("Escola 10","Rua atras do posto ribeiro da esquina 403","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")
-        val schoolList = ArrayList<Escola>()
-        schoolList.add(schoolObj1)
-        schoolList.add(schoolObj2)
+//        val schoolObj1 = Escola("Escola 9","Rua ali do lado da esquina 99","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")
+//        val schoolObj2 = Escola("Escola 10","Rua atras do posto ribeiro da esquina 403","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")
+//        val schoolList = ArrayList<Escola>()
+//        schoolList.add(schoolObj1)
+//        schoolList.add(schoolObj2)
+
+        val json = """
+           [{ "escola_nome": "Escola 9",
+             "endereco": "Rua ali do lado da esquina 99",
+             "imageUrl": "https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg"
+           },{ "escola_nome": "Escola 10",
+             "endereco": "Rua ali do lado da esquina 100",
+             "imageUrl": "https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg"
+           }]
+        """
+
+        val schoolListFromServer = Gson().fromJson(json, Array<Escola>::class.java)
+        val schoolList = schoolListFromServer.toCollection(ArrayList())
+        println("RAAAFAAAAAAAAAA")
+        println(schoolListFromServer[1])
 
         return schoolList
     }

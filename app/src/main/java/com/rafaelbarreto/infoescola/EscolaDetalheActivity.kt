@@ -1,11 +1,11 @@
 package com.rafaelbarreto.infoescola
 
-import android.support.v7.app.AppCompatActivity
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.content.res.ResourcesCompat
-import android.util.Log
+import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_escola_detalhe.*
 
 class EscolaDetalheActivity : AppCompatActivity() {
@@ -51,6 +51,11 @@ class EscolaDetalheActivity : AppCompatActivity() {
         detail_library.text = "Teste"
         detail_special_attention.text = "Teste"
         detail_sports_court.text = "Teste"
+
+        //Adding listener event in button
+        button_how_get_there.setOnClickListener{
+            openLocationScreen(this)
+        }
     }
 
     //To make back button work in many listViewsActivities
@@ -59,5 +64,11 @@ class EscolaDetalheActivity : AppCompatActivity() {
         this.finish() /* Close activity */
 
         return super.onOptionsItemSelected(item)
+    }
+
+    //To open map screen with school`s location
+    fun openLocationScreen(context: Activity){
+        val intent = Intent(this, LocationActivity::class.java)
+        context.startActivity(intent)
     }
 }

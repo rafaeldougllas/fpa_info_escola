@@ -1,0 +1,5938 @@
+[
+  {
+    "type": "Feature",
+    "id": 341,
+    "properties": {
+      "escola_codigo": 178,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Futuro Feliz",
+      "endereco": "Rua Ibirajuba, 440 - Cohab - TrÃªs Carneiros",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26124610,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 341,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.95835093451718,
+            -8.125672211268201
+          ],
+          [
+            -34.95829656401024,
+            -8.12569162880759
+          ],
+          [
+            -34.95829665690688,
+            -8.125710783144433
+          ],
+          [
+            -34.958360653718664,
+            -8.125694512309401
+          ],
+          [
+            -34.95835093451718,
+            -8.125672211268201
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 340,
+    "properties": {
+      "escola_codigo": 170,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Cristiano Cordeiro",
+      "endereco": "Avenida Santos, S/N - UR-2 - Cohab",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26133837,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 829,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.95406351872419,
+            -8.114933122077696
+          ],
+          [
+            -34.95397702033973,
+            -8.11490961535367
+          ],
+          [
+            -34.95395409310251,
+            -8.114921872092326
+          ],
+          [
+            -34.95395069793552,
+            -8.114934732110257
+          ],
+          [
+            -34.95394441335015,
+            -8.114935388771721
+          ],
+          [
+            -34.95393712262944,
+            -8.114922892834773
+          ],
+          [
+            -34.953920018155394,
+            -8.11492434363954
+          ],
+          [
+            -34.95391044870945,
+            -8.114910187967936
+          ],
+          [
+            -34.95388580311681,
+            -8.114921667337105
+          ],
+          [
+            -34.953872355752,
+            -8.114891435614366
+          ],
+          [
+            -34.95385903282221,
+            -8.114886765985478
+          ],
+          [
+            -34.953864627361106,
+            -8.11486496347816
+          ],
+          [
+            -34.953782810319346,
+            -8.114841687373357
+          ],
+          [
+            -34.95376975272558,
+            -8.114891927982377
+          ],
+          [
+            -34.95364415211731,
+            -8.114851820754312
+          ],
+          [
+            -34.9536524734929,
+            -8.114804442468037
+          ],
+          [
+            -34.9535982759079,
+            -8.114795235391423
+          ],
+          [
+            -34.9535657288471,
+            -8.11494119186059
+          ],
+          [
+            -34.95357243879607,
+            -8.114953467295019
+          ],
+          [
+            -34.95376234632405,
+            -8.1151286516782
+          ],
+          [
+            -34.954077942457474,
+            -8.114969029199614
+          ],
+          [
+            -34.95406351872419,
+            -8.114933122077696
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 334,
+    "properties": {
+      "escola_codigo": 201,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Oswaldo Lima Filho",
+      "endereco": "Avenida EngÂº Domjingos Ferreira 1040  Pina",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26125510,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 859,
+      "atendimento_especial": "coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.886550108289654,
+            -8.09842578510607
+          ],
+          [
+            -34.88652321118864,
+            -8.098410632389989
+          ],
+          [
+            -34.886539020707644,
+            -8.098513679219499
+          ],
+          [
+            -34.88658500887282,
+            -8.098513466554122
+          ],
+          [
+            -34.886550108289654,
+            -8.09842578510607
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 330,
+    "properties": {
+      "escola_codigo": 190,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Lagoa  Encantada",
+      "endereco": "Rua Doutor Benigno JordÃ£o de Vasconcelos, S/N-UR 02-Cohab",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26124114,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 256,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.952127055993955,
+            -8.116915412553352
+          ],
+          [
+            -34.952100047064945,
+            -8.116902116140638
+          ],
+          [
+            -34.95206008430502,
+            -8.116996287564046
+          ],
+          [
+            -34.95210723670555,
+            -8.116996061434996
+          ],
+          [
+            -34.952127055993955,
+            -8.116915412553352
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 326,
+    "properties": {
+      "escola_codigo": 17,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "Pedro Augusto",
+      "endereco": "Rua Barao de Sao Borja, 279 - Boa Vista",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26121468,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 20,
+      "sala_professora": "nao",
+      "prog": "Projovem",
+      "qtd_atendidos": 830,
+      "atendimento_especial": "Coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.8901721117607,
+            -8.060443170821397
+          ],
+          [
+            -34.89004179003522,
+            -8.06043655731286
+          ],
+          [
+            -34.88981463911807,
+            -8.060621568180222
+          ],
+          [
+            -34.89019764509501,
+            -8.06126547537969
+          ],
+          [
+            -34.89046482404783,
+            -8.061127173160157
+          ],
+          [
+            -34.89043829325493,
+            -8.060869386002535
+          ],
+          [
+            -34.89021379859212,
+            -8.06084697518653
+          ],
+          [
+            -34.89022928048234,
+            -8.060673762240025
+          ],
+          [
+            -34.89015505465964,
+            -8.060666890051003
+          ],
+          [
+            -34.8901721117607,
+            -8.060443170821397
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 324,
+    "properties": {
+      "escola_codigo": 58,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Boa Esperanca",
+      "endereco": "Rua Pedra Bonita 80 Vasco da Gama",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26126869,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 350,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92001035184284,
+            -8.018636536571547
+          ],
+          [
+            -34.91980948389308,
+            -8.018712894295437
+          ],
+          [
+            -34.919838422849196,
+            -8.018804029128495
+          ],
+          [
+            -34.920059047307404,
+            -8.018731405284862
+          ],
+          [
+            -34.92001035184284,
+            -8.018636536571547
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 323,
+    "properties": {
+      "escola_codigo": 114,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Engenho do Meio",
+      "endereco": "Rua Bom Pastor, 1406-Engenho do Meio",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26127377,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 20,
+      "sala_professora": "nao",
+      "prog": "PrÃ³-Jovem",
+      "qtd_atendidos": 732,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93963859058343,
+            -8.04955414915334
+          ],
+          [
+            -34.939616417640345,
+            -8.049563110951826
+          ],
+          [
+            -34.939404132282384,
+            -8.050237238875168
+          ],
+          [
+            -34.93968219188617,
+            -8.050313421696547
+          ],
+          [
+            -34.939712734813284,
+            -8.050195924150275
+          ],
+          [
+            -34.939568135458366,
+            -8.050154536702765
+          ],
+          [
+            -34.93966253767192,
+            -8.049819876047431
+          ],
+          [
+            -34.93981776706229,
+            -8.049858865414961
+          ],
+          [
+            -34.939898677983265,
+            -8.049588347729378
+          ],
+          [
+            -34.93963859058343,
+            -8.04955414915334
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 284,
+    "properties": {
+      "escola_codigo": 146,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Lojistas do Recife",
+      "endereco": "Avenida Getulio Vargas 2501 Curado/ ROD BR 232 Km 07",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26123622,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": null,
+      "laboratorio_informatica": 10,
+      "sala_professora": null,
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 440,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.96588520368599,
+            -8.07623456612389
+          ],
+          [
+            -34.96542672112346,
+            -8.076123678783514
+          ],
+          [
+            -34.965180531479604,
+            -8.076949408996285
+          ],
+          [
+            -34.96566171733104,
+            -8.077080406993888
+          ],
+          [
+            -34.96588520368599,
+            -8.07623456612389
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 245,
+    "properties": {
+      "escola_codigo": 0,
+      "escola_tipo": "EP",
+      "rpa": 3,
+      "escola_nome": "Escola Profissionalizante Moacir do Melo Rego",
+      "endereco": "Rua Vasco da Gama SN Casa Amarela",
+      "tipo_predio": null,
+      "mec_codigo": 0,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 0,
+      "sala_professora": "sim",
+      "prog": null,
+      "qtd_atendidos": 0,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92156423971058,
+            -8.009954904862932
+          ],
+          [
+            -34.920975348229206,
+            -8.009726051266407
+          ],
+          [
+            -34.920926702348986,
+            -8.009855416967511
+          ],
+          [
+            -34.92117984938867,
+            -8.009953493780953
+          ],
+          [
+            -34.92119574962395,
+            -8.009919266912643
+          ],
+          [
+            -34.92152614046625,
+            -8.010050068667752
+          ],
+          [
+            -34.92156423971058,
+            -8.009954904862932
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 208,
+    "properties": {
+      "escola_codigo": 156,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Sancho",
+      "endereco": "Rua Joao Ferreira 427 Sancho",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26168120,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 426,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.96030455625074,
+            -8.087048911356895
+          ],
+          [
+            -34.96020041914137,
+            -8.087060227895254
+          ],
+          [
+            -34.96007900177899,
+            -8.087088932451897
+          ],
+          [
+            -34.96007891074955,
+            -8.087519423103485
+          ],
+          [
+            -34.96025460458884,
+            -8.08749262142799
+          ],
+          [
+            -34.96035868954168,
+            -8.087470489169739
+          ],
+          [
+            -34.96030455625074,
+            -8.087048911356895
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 207,
+    "properties": {
+      "escola_codigo": 159,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "TejipiÃ³",
+      "endereco": "Rua Tutoia 165  Coqueiral",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26123550,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 714,
+      "atendimento_especial": "Nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.96463559029267,
+            -8.091944875396736
+          ],
+          [
+            -34.96453108685854,
+            -8.091868959081111
+          ],
+          [
+            -34.96435905897548,
+            -8.092119801066906
+          ],
+          [
+            -34.96457952545863,
+            -8.09229233438075
+          ],
+          [
+            -34.96476841511017,
+            -8.092004616857883
+          ],
+          [
+            -34.96464967599784,
+            -8.09192122128246
+          ],
+          [
+            -34.96463559029267,
+            -8.091944875396736
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 206,
+    "properties": {
+      "escola_codigo": 128,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Vila Santa Luzia",
+      "endereco": "Rua Elizeu Cavalcante, 52- Cordeiro",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26153475,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 704,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92101530755141,
+            -8.049305766602258
+          ],
+          [
+            -34.92089643231793,
+            -8.049373337511472
+          ],
+          [
+            -34.92085856045769,
+            -8.049443575936952
+          ],
+          [
+            -34.92097171429157,
+            -8.049917936241977
+          ],
+          [
+            -34.920997845304086,
+            -8.0499143387026
+          ],
+          [
+            -34.92099765039135,
+            -8.049943233420871
+          ],
+          [
+            -34.921149521992454,
+            -8.049899132001944
+          ],
+          [
+            -34.92106871188021,
+            -8.0496131750657
+          ],
+          [
+            -34.921152548647356,
+            -8.049568613764105
+          ],
+          [
+            -34.92101530755141,
+            -8.049305766602258
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 205,
+    "properties": {
+      "escola_codigo": 123,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Professora Elizabeth Sales Coutinho de Barros-TorrÃµes",
+      "endereco": "Rua Professor Avertano Rocha, 386- TorrÃµes",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26121050,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 338,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93413825107303,
+            -8.067238217821673
+          ],
+          [
+            -34.93393567534885,
+            -8.067287611096905
+          ],
+          [
+            -34.93397927744122,
+            -8.067415949920923
+          ],
+          [
+            -34.93417065673957,
+            -8.067370335102854
+          ],
+          [
+            -34.93413825107303,
+            -8.067238217821673
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 203,
+    "properties": {
+      "escola_codigo": 122,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Professor JoÃ£o Batista Lippo Neto",
+      "endereco": "Rua Barao de Cerro Largo ,S/N- VÃ¡rzea",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26157845,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 326,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.99038442165189,
+            -8.035370042519135
+          ],
+          [
+            -34.990069863039764,
+            -8.035184945585385
+          ],
+          [
+            -34.98986670188694,
+            -8.035528864169445
+          ],
+          [
+            -34.990222533098176,
+            -8.035645174738686
+          ],
+          [
+            -34.99038442165189,
+            -8.035370042519135
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 201,
+    "properties": {
+      "escola_codigo": 106,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Creuza de Freitas Cavalcanti",
+      "endereco": "Rua Epaminondas CristovÃ£o de Oliveira, S/N- TorrÃµes",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26127008,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/PrÃ³-Jovem",
+      "qtd_atendidos": 803,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93586008785837,
+            -8.061150425158988
+          ],
+          [
+            -34.93552719305447,
+            -8.061283765232274
+          ],
+          [
+            -34.93563363862397,
+            -8.061552787932586
+          ],
+          [
+            -34.93596952442523,
+            -8.061416438471744
+          ],
+          [
+            -34.93586008785837,
+            -8.061150425158988
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 198,
+    "properties": {
+      "escola_codigo": 118,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "JoÃ£o XXIII",
+      "endereco": "Est Do Caiara, 350-Iputinga",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26119897,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 769,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93080613262767,
+            -8.041317715420094
+          ],
+          [
+            -34.930493164473965,
+            -8.041485287844313
+          ],
+          [
+            -34.93050017977691,
+            -8.041510456366387
+          ],
+          [
+            -34.9306161101505,
+            -8.04172183419935
+          ],
+          [
+            -34.930930157121836,
+            -8.041539364958709
+          ],
+          [
+            -34.93080613262767,
+            -8.041317715420094
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 197,
+    "properties": {
+      "escola_codigo": 95,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Professor Nilo Pereira",
+      "endereco": "Estrada do Arraial, 4900- Casa Amarela",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26126524,
+      "qtd_anexos": 1,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Esc Aberta",
+      "qtd_atendidos": 920,
+      "atendimento_especial": "Descoberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92591377401273,
+            -8.026892670511197
+          ],
+          [
+            -34.92549842022058,
+            -8.026916998787952
+          ],
+          [
+            -34.92548431854565,
+            -8.02749906611507
+          ],
+          [
+            -34.92565082417799,
+            -8.027487094647775
+          ],
+          [
+            -34.92581911303658,
+            -8.027456461300956
+          ],
+          [
+            -34.92591443374188,
+            -8.027429899579639
+          ],
+          [
+            -34.92591377401273,
+            -8.026892670511197
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 189,
+    "properties": {
+      "escola_codigo": 160,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Vila SÃ£o Miguel",
+      "endereco": "Rua Rubiacea, 147, Afogados",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26123126,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 455,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.91278558646455,
+            -8.084117264210706
+          ],
+          [
+            -34.91267011785251,
+            -8.084095158743267
+          ],
+          [
+            -34.91263086894244,
+            -8.084297414400718
+          ],
+          [
+            -34.9126710809978,
+            -8.084299548736126
+          ],
+          [
+            -34.91275092911369,
+            -8.084304981813487
+          ],
+          [
+            -34.91278558646455,
+            -8.084117264210706
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 188,
+    "properties": {
+      "escola_codigo": 141,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "General San Martin",
+      "endereco": "Avenida General San Martin, 1864 - San Martin",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26119617,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Pro-Jovem",
+      "qtd_atendidos": 485,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92813298545053,
+            -8.067189744793177
+          ],
+          [
+            -34.92786524718689,
+            -8.067290131629369
+          ],
+          [
+            -34.92793496930265,
+            -8.067552243064611
+          ],
+          [
+            -34.92807169264876,
+            -8.067502036185207
+          ],
+          [
+            -34.92820758802524,
+            -8.067449395828547
+          ],
+          [
+            -34.92813298545053,
+            -8.067189744793177
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 185,
+    "properties": {
+      "escola_codigo": 198,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Nossa Senhora da Penha",
+      "endereco": "Rua Franscico de Barros Barreto, 109 - Boa Viagem",
+      "tipo_predio": "Alugado",
+      "mec_codigo": 26134049,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 282,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.90479830203704,
+            -8.129704706456845
+          ],
+          [
+            -34.9046508221939,
+            -8.129720929471942
+          ],
+          [
+            -34.90465288718741,
+            -8.129938371342629
+          ],
+          [
+            -34.90481811582245,
+            -8.129939668206287
+          ],
+          [
+            -34.90483463424741,
+            -8.129916810117713
+          ],
+          [
+            -34.90479830203704,
+            -8.129704706456845
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 182,
+    "properties": {
+      "escola_codigo": 113,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Doutor Rodolfo Aureliano",
+      "endereco": "Rua Jose Avelar, 211-VÃ¡rzea",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26119641,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 954,
+      "atendimento_especial": "Alugada"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.95625999617606,
+            -8.041942962697163
+          ],
+          [
+            -34.95610878773973,
+            -8.041993031866228
+          ],
+          [
+            -34.95622431987978,
+            -8.042398884502322
+          ],
+          [
+            -34.956387108464064,
+            -8.042334245681522
+          ],
+          [
+            -34.95625999617606,
+            -8.041942962697163
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 181,
+    "properties": {
+      "escola_codigo": 0,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Casa dos FerroviÃ¡rios",
+      "endereco": "Avenida FalcÃ£o de Lacerda 287 TEJIPIÃ“",
+      "tipo_predio": "Alugado",
+      "mec_codigo": 26123444,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Pro-Jovem",
+      "qtd_atendidos": 662,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.96026186963251,
+            -8.091759920459046
+          ],
+          [
+            -34.96011691835689,
+            -8.091722648522591
+          ],
+          [
+            -34.96001315991706,
+            -8.092251317369817
+          ],
+          [
+            -34.960071209227856,
+            -8.0928275158296
+          ],
+          [
+            -34.96019462543308,
+            -8.092823327875681
+          ],
+          [
+            -34.96013834611121,
+            -8.092279660978381
+          ],
+          [
+            -34.96015206277524,
+            -8.092279996514712
+          ],
+          [
+            -34.96026186963251,
+            -8.091759920459046
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 180,
+    "properties": {
+      "escola_codigo": 143,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Isaac Pereira da Silva",
+      "endereco": "Rua Oiticica Lins, S/N- Areias",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26158310,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 374,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93491078403362,
+            -8.09316560607835
+          ],
+          [
+            -34.93470963171648,
+            -8.093173243134093
+          ],
+          [
+            -34.93472293663007,
+            -8.093552222278365
+          ],
+          [
+            -34.934924084579855,
+            -8.093543631417923
+          ],
+          [
+            -34.93491078403362,
+            -8.09316560607835
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 175,
+    "properties": {
+      "escola_codigo": 41,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Monteiro Lobato",
+      "endereco": "Avenida Jardim Brasilia S/N Peixinhos",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26118734,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educacao",
+      "qtd_atendidos": 308,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.87459874269047,
+            -8.017216432064322
+          ],
+          [
+            -34.874174897142225,
+            -8.017282268452536
+          ],
+          [
+            -34.87433838948475,
+            -8.0185203589502
+          ],
+          [
+            -34.874535527790904,
+            -8.018489966072089
+          ],
+          [
+            -34.8745661328186,
+            -8.018711047654088
+          ],
+          [
+            -34.87478793068714,
+            -8.018680541511856
+          ],
+          [
+            -34.87459874269047,
+            -8.017216432064322
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 174,
+    "properties": {
+      "escola_codigo": 37,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Luiz Lua Gonzaga",
+      "endereco": "Rua Aurilandia  55  Bomba do HemetÃ©rio",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26128268,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "MaisEduc/EscAbert",
+      "qtd_atendidos": 464,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.90242402727731,
+            -8.019113583367696
+          ],
+          [
+            -34.90228570012929,
+            -8.019126927171438
+          ],
+          [
+            -34.90231996928257,
+            -8.019448026442793
+          ],
+          [
+            -34.902441908179696,
+            -8.019434758300417
+          ],
+          [
+            -34.90242402727731,
+            -8.019113583367696
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 171,
+    "properties": {
+      "escola_codigo": 5,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "Coque",
+      "endereco": "Rua Mirandopolis 35 Ilha Joana Bezerra",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26122898,
+      "qtd_anexos": 1,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 580,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.900405554094775,
+            -8.071385433238145
+          ],
+          [
+            -34.899955396021,
+            -8.071338314525303
+          ],
+          [
+            -34.89993244024511,
+            -8.071363331868497
+          ],
+          [
+            -34.89992103893041,
+            -8.071392128838767
+          ],
+          [
+            -34.899893559637285,
+            -8.071683525600479
+          ],
+          [
+            -34.90036912482041,
+            -8.071739564324496
+          ],
+          [
+            -34.900405554094775,
+            -8.071385433238145
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 170,
+    "properties": {
+      "escola_codigo": 192,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Luiz Vaz de CamÃµes",
+      "endereco": "R ERVAL, S/N, Vila Arquiteta MÂª. LÃºcia- Ipsep",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26119927,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 791,
+      "atendimento_especial": "coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92573127185571,
+            -8.103615341291034
+          ],
+          [
+            -34.92517762902063,
+            -8.103536164082765
+          ],
+          [
+            -34.92516411536319,
+            -8.103533437972239
+          ],
+          [
+            -34.92515098314446,
+            -8.103541485518917
+          ],
+          [
+            -34.92514538972125,
+            -8.103549555327929
+          ],
+          [
+            -34.92511794999969,
+            -8.103775814032787
+          ],
+          [
+            -34.92512857358075,
+            -8.103799570409528
+          ],
+          [
+            -34.92515062296096,
+            -8.10381470327409
+          ],
+          [
+            -34.9257034860054,
+            -8.103889109790224
+          ],
+          [
+            -34.92571945327551,
+            -8.103882229532969
+          ],
+          [
+            -34.92573195142735,
+            -8.103871905835508
+          ],
+          [
+            -34.92576701044042,
+            -8.103640353183053
+          ],
+          [
+            -34.92574813644413,
+            -8.10361745216375
+          ],
+          [
+            -34.92573127185571,
+            -8.103615341291034
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 165,
+    "properties": {
+      "escola_codigo": 221,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Vila OperÃ¡ria do Recife",
+      "endereco": "Rua Emilio Monteiro Fonseca 1530 Ibura",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26120283,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 541,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93654958945313,
+            -8.123896625443546
+          ],
+          [
+            -34.93624476671789,
+            -8.124097509424558
+          ],
+          [
+            -34.93634099663025,
+            -8.124250928849898
+          ],
+          [
+            -34.93648621483309,
+            -8.124141909551627
+          ],
+          [
+            -34.936441735780946,
+            -8.124073287819032
+          ],
+          [
+            -34.93659565377159,
+            -8.123969295187695
+          ],
+          [
+            -34.93654958945313,
+            -8.123896625443546
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 164,
+    "properties": {
+      "escola_codigo": 222,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Vila SÃ©samo",
+      "endereco": "R Vale do Cariri 290 Cohab UR- 05",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26121158,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educacao",
+      "qtd_atendidos": 1151,
+      "atendimento_especial": "Descoberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.95020751857444,
+            -8.133451393255518
+          ],
+          [
+            -34.94997821154123,
+            -8.13370267441054
+          ],
+          [
+            -34.95015129247657,
+            -8.133859911901544
+          ],
+          [
+            -34.95026030099018,
+            -8.133746808084132
+          ],
+          [
+            -34.950136493921605,
+            -8.133631409179165
+          ],
+          [
+            -34.9502567933139,
+            -8.133493232683696
+          ],
+          [
+            -34.95020751857444,
+            -8.133451393255518
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 161,
+    "properties": {
+      "escola_codigo": 120,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "MÃ©rcia de Albuquerque Ferreira",
+      "endereco": "Rua Tabaiares, 182- Ilha Do Retiro",
+      "tipo_predio": "nada consta",
+      "mec_codigo": 26175398,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 345,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.90648131305775,
+            -8.065488117954635
+          ],
+          [
+            -34.90640568090686,
+            -8.065486899623487
+          ],
+          [
+            -34.90630479019558,
+            -8.065474807174807
+          ],
+          [
+            -34.90619123664723,
+            -8.065450211601064
+          ],
+          [
+            -34.9060759802267,
+            -8.065734964517246
+          ],
+          [
+            -34.906293826938445,
+            -8.065825025585967
+          ],
+          [
+            -34.90648131305775,
+            -8.065488117954635
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 160,
+    "properties": {
+      "escola_codigo": 11,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "Padre Antonio Henrique",
+      "endereco": "Avenida Viscondessa do Livramento 290 Derby",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26121662,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 356,
+      "atendimento_especial": "Campo de Areia"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.90001810158117,
+            -8.06110501294006
+          ],
+          [
+            -34.899785239236486,
+            -8.061309378505674
+          ],
+          [
+            -34.89987402018828,
+            -8.061411849378798
+          ],
+          [
+            -34.899894047030855,
+            -8.061439026950845
+          ],
+          [
+            -34.89991157996523,
+            -8.061464976601522
+          ],
+          [
+            -34.89992163297819,
+            -8.061487241579584
+          ],
+          [
+            -34.89994711447423,
+            -8.061617276320613
+          ],
+          [
+            -34.90030244712698,
+            -8.061538776240251
+          ],
+          [
+            -34.90023368576815,
+            -8.061195740452598
+          ],
+          [
+            -34.90013560305398,
+            -8.061232142044814
+          ],
+          [
+            -34.90001810158117,
+            -8.06110501294006
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 158,
+    "properties": {
+      "escola_codigo": 3,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "Dos Coelhos",
+      "endereco": "Rua dos Coelhos, 591-Coelhos",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26118670,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "0",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 830,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.890821006599694,
+            -8.06845564996172
+          ],
+          [
+            -34.89077899782342,
+            -8.068463462608062
+          ],
+          [
+            -34.89076621558466,
+            -8.069002558943708
+          ],
+          [
+            -34.89106347988384,
+            -8.068814523244292
+          ],
+          [
+            -34.890821006599694,
+            -8.06845564996172
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 156,
+    "properties": {
+      "escola_codigo": 18,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "ColÃ©gio Reitor JoÃ£o Alfredo",
+      "endereco": "Rua Senador Jose Henrique 160 -Ilha Do Leite",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26121786,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 1050,
+      "atendimento_especial": "Descoberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.89591550559281,
+            -8.064426339377073
+          ],
+          [
+            -34.895883607656884,
+            -8.064390645005403
+          ],
+          [
+            -34.89556610544558,
+            -8.064349947424297
+          ],
+          [
+            -34.89555966122632,
+            -8.064328894241113
+          ],
+          [
+            -34.89526545718941,
+            -8.064294413501443
+          ],
+          [
+            -34.89505583055521,
+            -8.06515980202156
+          ],
+          [
+            -34.895675557481745,
+            -8.06514006794311
+          ],
+          [
+            -34.895698817300634,
+            -8.065137851994285
+          ],
+          [
+            -34.89577179416183,
+            -8.06490981332396
+          ],
+          [
+            -34.89574852544122,
+            -8.064909921015087
+          ],
+          [
+            -34.89591550559281,
+            -8.064426339377073
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 153,
+    "properties": {
+      "escola_codigo": 15,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "Sede da Sabedoria",
+      "endereco": "Rua Artemis, 30 - Santo Amaro",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26122014,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "MaisEdu/EscAb/Projov",
+      "qtd_atendidos": 616,
+      "atendimento_especial": "Nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.876817036481235,
+            -8.040019879336816
+          ],
+          [
+            -34.876711921538245,
+            -8.040162581001217
+          ],
+          [
+            -34.87671600033675,
+            -8.040181458635418
+          ],
+          [
+            -34.87668930159891,
+            -8.040234292324588
+          ],
+          [
+            -34.876853363592254,
+            -8.040325041618708
+          ],
+          [
+            -34.87688408990573,
+            -8.040280146368053
+          ],
+          [
+            -34.87692311013518,
+            -8.040302843243769
+          ],
+          [
+            -34.87693401770715,
+            -8.040287875119041
+          ],
+          [
+            -34.87691099900197,
+            -8.040273061986962
+          ],
+          [
+            -34.87699607471968,
+            -8.040112550062872
+          ],
+          [
+            -34.876817036481235,
+            -8.040019879336816
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 150,
+    "properties": {
+      "escola_codigo": 88,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Poeta Joaquim Cardoso",
+      "endereco": "Rua Corrego da Areia, S/N- Nova Descoberta",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26126494,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 15,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Esc Aberta",
+      "qtd_atendidos": 1297,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93098589595536,
+            -8.001137759872764
+          ],
+          [
+            -34.9307424948985,
+            -8.00115496443452
+          ],
+          [
+            -34.93068070855948,
+            -8.001357794156062
+          ],
+          [
+            -34.9309082789805,
+            -8.001401483274515
+          ],
+          [
+            -34.93090921648533,
+            -8.001356151213567
+          ],
+          [
+            -34.931008164979296,
+            -8.001344213122813
+          ],
+          [
+            -34.93098589595536,
+            -8.001137759872764
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 149,
+    "properties": {
+      "escola_codigo": 90,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Professor Aderbal GalvÃ£o",
+      "endereco": "Rua Vasco da Gama, 399- Vasco da Gama",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26126516,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Escola Aberta",
+      "qtd_atendidos": 579,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92124915045493,
+            -8.016366156710127
+          ],
+          [
+            -34.92094656893949,
+            -8.016600129547193
+          ],
+          [
+            -34.92094547890479,
+            -8.016630897175276
+          ],
+          [
+            -34.92101643071064,
+            -8.016756075596046
+          ],
+          [
+            -34.921304482599616,
+            -8.016582464192263
+          ],
+          [
+            -34.92141663825679,
+            -8.016543796059903
+          ],
+          [
+            -34.92124915045493,
+            -8.016366156710127
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 148,
+    "properties": {
+      "escola_codigo": 103,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Arraial Novo do Bom Jesus",
+      "endereco": "Estrada do Forte do Arraial Novo do Bom Jesus, 1340-TorrÃµes",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26127369,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 828,
+      "atendimento_especial": "Descoberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.932267379794155,
+            -8.058549046278392
+          ],
+          [
+            -34.93216990918443,
+            -8.058391042878638
+          ],
+          [
+            -34.93155804888171,
+            -8.058725377609658
+          ],
+          [
+            -34.93169306109533,
+            -8.058976961177072
+          ],
+          [
+            -34.93216083906358,
+            -8.058713292797263
+          ],
+          [
+            -34.93211542839703,
+            -8.058636917069956
+          ],
+          [
+            -34.932267379794155,
+            -8.058549046278392
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 147,
+    "properties": {
+      "escola_codigo": 105,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "CÃ©lia Arraes",
+      "endereco": "Rua Jose Noya 131- Varzea",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26127024,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 393,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.95893300630853,
+            -8.03903179859257
+          ],
+          [
+            -34.958695683839636,
+            -8.039108466335328
+          ],
+          [
+            -34.958820396108415,
+            -8.039493564309998
+          ],
+          [
+            -34.958941944578164,
+            -8.039458650180954
+          ],
+          [
+            -34.9589346320695,
+            -8.039370559905773
+          ],
+          [
+            -34.9590122892279,
+            -8.039282063607496
+          ],
+          [
+            -34.95893300630853,
+            -8.03903179859257
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 144,
+    "properties": {
+      "escola_codigo": 98,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Santa Maria",
+      "endereco": "Rua Acaiaca, 70- Alto JosÃ© Do Pinho",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26121077,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 0,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 806,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.909000622910256,
+            -8.021970903632237
+          ],
+          [
+            -34.90882189591508,
+            -8.021648234712863
+          ],
+          [
+            -34.90844708343402,
+            -8.021858543504512
+          ],
+          [
+            -34.90873857552016,
+            -8.022095559147962
+          ],
+          [
+            -34.908768457250055,
+            -8.022093291539688
+          ],
+          [
+            -34.909000622910256,
+            -8.021970903632237
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 143,
+    "properties": {
+      "escola_codigo": 102,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Virgem Poderosa",
+      "endereco": "Rua Leonardo Bezerra Cavalcante 116 Parnamirim",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26125811,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "sim",
+      "prog": "nao",
+      "qtd_atendidos": 227,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.90858005709275,
+            -8.036038904104924
+          ],
+          [
+            -34.90845522548426,
+            -8.035920287707537
+          ],
+          [
+            -34.908172932791935,
+            -8.036227768318811
+          ],
+          [
+            -34.90829303237328,
+            -8.03633705869871
+          ],
+          [
+            -34.90858005709275,
+            -8.036038904104924
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 142,
+    "properties": {
+      "escola_codigo": 119,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "MagalhÃ£es Bastos",
+      "endereco": "Rua Francisco Lacerda, S/N - VÃ¡rzea",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26120763,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 0,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 688,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.957177361935564,
+            -8.046386506860717
+          ],
+          [
+            -34.957035930936655,
+            -8.046449424474384
+          ],
+          [
+            -34.95705349719284,
+            -8.046488851931779
+          ],
+          [
+            -34.95685569967516,
+            -8.046558126939438
+          ],
+          [
+            -34.95682925638382,
+            -8.046482435412527
+          ],
+          [
+            -34.95673090631259,
+            -8.046517818356762
+          ],
+          [
+            -34.95678817541684,
+            -8.046704113667076
+          ],
+          [
+            -34.956746654545675,
+            -8.046720132340335
+          ],
+          [
+            -34.95681746556156,
+            -8.046893711001625
+          ],
+          [
+            -34.95669666153511,
+            -8.046940795350881
+          ],
+          [
+            -34.956788822151736,
+            -8.047201248423208
+          ],
+          [
+            -34.95740677849745,
+            -8.046947799101977
+          ],
+          [
+            -34.957177361935564,
+            -8.046386506860717
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 140,
+    "properties": {
+      "escola_codigo": 116,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Iputinga",
+      "endereco": "Rua Coronel Fernando Furtado 479 Iputinga",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26119218,
+      "qtd_anexos": 2,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 718,
+      "atendimento_especial": "Coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.928136763622454,
+            -8.041200598221108
+          ],
+          [
+            -34.927711194831275,
+            -8.041431579960468
+          ],
+          [
+            -34.927949913037146,
+            -8.041869489295038
+          ],
+          [
+            -34.92819111356935,
+            -8.041735786918444
+          ],
+          [
+            -34.92825733786927,
+            -8.041859437776518
+          ],
+          [
+            -34.928548476714866,
+            -8.041692789253151
+          ],
+          [
+            -34.92848397934781,
+            -8.041569130347739
+          ],
+          [
+            -34.92845093183287,
+            -8.041521078413746
+          ],
+          [
+            -34.92837972913652,
+            -8.041440493161007
+          ],
+          [
+            -34.928136763622454,
+            -8.041200598221108
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 137,
+    "properties": {
+      "escola_codigo": 4,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "Cidadao Herbert de Souza",
+      "endereco": "Rua Arnobio Marques 310 Santo Amaro",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26121972,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 0,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 255,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.88715767067205,
+            -8.045582067111427
+          ],
+          [
+            -34.88699401466033,
+            -8.04555125519744
+          ],
+          [
+            -34.88694347783242,
+            -8.04580335481548
+          ],
+          [
+            -34.887115555949315,
+            -8.045838637561097
+          ],
+          [
+            -34.88715767067205,
+            -8.045582067111427
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 132,
+    "properties": {
+      "escola_codigo": 89,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "PresbÃ­tero JosÃ© Bezerra",
+      "endereco": "Avenida Norte 7123  Macaxeira",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26126419,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 595,
+      "atendimento_especial": "coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93131476396929,
+            -8.014936959882872
+          ],
+          [
+            -34.931010258890986,
+            -8.014866496186098
+          ],
+          [
+            -34.9309810225083,
+            -8.014983846979664
+          ],
+          [
+            -34.93104862859044,
+            -8.015023382857882
+          ],
+          [
+            -34.9311513902635,
+            -8.015036966634908
+          ],
+          [
+            -34.93115444823623,
+            -8.015020542754078
+          ],
+          [
+            -34.93121538247084,
+            -8.015033136402284
+          ],
+          [
+            -34.93122512900257,
+            -8.015037003487478
+          ],
+          [
+            -34.93123366731883,
+            -8.01503815411716
+          ],
+          [
+            -34.931238504237776,
+            -8.015038150434425
+          ],
+          [
+            -34.93124605714666,
+            -8.015036903600844
+          ],
+          [
+            -34.93125329829501,
+            -8.015035707951366
+          ],
+          [
+            -34.93129096688226,
+            -8.015044126291844
+          ],
+          [
+            -34.93131476396929,
+            -8.014936959882872
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 129,
+    "properties": {
+      "escola_codigo": 57,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Almerinda de Barros",
+      "endereco": "Rua Vasco da Gama S/N Vasco da Gama",
+      "tipo_predio": "nada consta",
+      "mec_codigo": 0,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Projovem",
+      "qtd_atendidos": 1286,
+      "atendimento_especial": "descoberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.920872894375684,
+            -8.009836500584504
+          ],
+          [
+            -34.92081798762802,
+            -8.0099865722767
+          ],
+          [
+            -34.92068415398716,
+            -8.009972213554226
+          ],
+          [
+            -34.92058967851426,
+            -8.010338205258053
+          ],
+          [
+            -34.92094061206518,
+            -8.010495374589073
+          ],
+          [
+            -34.92102245299675,
+            -8.010319709033585
+          ],
+          [
+            -34.92112774433488,
+            -8.01033719666767
+          ],
+          [
+            -34.92120070688655,
+            -8.010191534921288
+          ],
+          [
+            -34.92145926505292,
+            -8.010200817261673
+          ],
+          [
+            -34.92151866598374,
+            -8.010047728526109
+          ],
+          [
+            -34.92119644372201,
+            -8.009923384397718
+          ],
+          [
+            -34.921183071926905,
+            -8.00995640612258
+          ],
+          [
+            -34.920872894375684,
+            -8.009836500584504
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 120,
+    "properties": {
+      "escola_codigo": 56,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Alto Jardim Progresso",
+      "endereco": "Rua Alto Jardim Progresso 300 Nova Descoberta",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26125854,
+      "qtd_anexos": 1,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educacao",
+      "qtd_atendidos": 400,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92608105879584,
+            -8.004472124000026
+          ],
+          [
+            -34.925928358194355,
+            -8.004614989470276
+          ],
+          [
+            -34.92598513548973,
+            -8.004672837473185
+          ],
+          [
+            -34.92613692651615,
+            -8.004527293879885
+          ],
+          [
+            -34.92608105879584,
+            -8.004472124000026
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 119,
+    "properties": {
+      "escola_codigo": 91,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Professor JosÃ© Soares da Silva",
+      "endereco": "Rua Barao de Botovi  5785 Nova Descoberta",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26166666,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 426,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.923352754206036,
+            -8.006680029730061
+          ],
+          [
+            -34.92326870987068,
+            -8.00670338204656
+          ],
+          [
+            -34.923264634718976,
+            -8.006690787572976
+          ],
+          [
+            -34.92317326935246,
+            -8.006719364225301
+          ],
+          [
+            -34.9232624800852,
+            -8.006953720552879
+          ],
+          [
+            -34.92342573508821,
+            -8.006906905525602
+          ],
+          [
+            -34.923352754206036,
+            -8.006680029730061
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 118,
+    "properties": {
+      "escola_codigo": 199,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Novo Pina",
+      "endereco": "Rua Eurico Vitruvio  236  Pina",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26119994,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao]",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 684,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.88850842917104,
+            -8.091308105161868
+          ],
+          [
+            -34.88808735722781,
+            -8.091362130879553
+          ],
+          [
+            -34.88806060331289,
+            -8.09157870680166
+          ],
+          [
+            -34.88774859358876,
+            -8.091557364926379
+          ],
+          [
+            -34.887741035262856,
+            -8.091687596867983
+          ],
+          [
+            -34.88842884028015,
+            -8.091751142521145
+          ],
+          [
+            -34.88846046988186,
+            -8.091529661151055
+          ],
+          [
+            -34.88850842917104,
+            -8.091308105161868
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 115,
+    "properties": {
+      "escola_codigo": 182,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "InÃªs Soares de Lima",
+      "endereco": "Rua 14 de  Novembro SN Imbiribeira",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26134010,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 281,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.91258815494618,
+            -8.120585686230838
+          ],
+          [
+            -34.91240836488632,
+            -8.1206318357279
+          ],
+          [
+            -34.91245341768126,
+            -8.120804882236204
+          ],
+          [
+            -34.91257962192196,
+            -8.120769560326949
+          ],
+          [
+            -34.912600018536814,
+            -8.120755827561318
+          ],
+          [
+            -34.91261225649417,
+            -8.120745362460134
+          ],
+          [
+            -34.91261524532269,
+            -8.120737976680509
+          ],
+          [
+            -34.91258815494618,
+            -8.120585686230838
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 113,
+    "properties": {
+      "escola_codigo": 174,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Educador Paulo Freire",
+      "endereco": "Avenida General Bento da Gama 301 Ipsep",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26148161,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 959,
+      "atendimento_especial": "Coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92399534276852,
+            -8.110240004701199
+          ],
+          [
+            -34.923768506653154,
+            -8.11021039674519
+          ],
+          [
+            -34.92376776080461,
+            -8.110200639155947
+          ],
+          [
+            -34.92358993699453,
+            -8.110178468763936
+          ],
+          [
+            -34.92354511558042,
+            -8.110169616314783
+          ],
+          [
+            -34.92351660874581,
+            -8.110354523162934
+          ],
+          [
+            -34.92352156296328,
+            -8.110366353777076
+          ],
+          [
+            -34.923956346727195,
+            -8.110426356034086
+          ],
+          [
+            -34.92397517812641,
+            -8.11041371606425
+          ],
+          [
+            -34.92399534276852,
+            -8.110240004701199
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 111,
+    "properties": {
+      "escola_codigo": 195,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Maria Sampaio de Lucena",
+      "endereco": "Avenida Pernambuco, S/N - UR 01/ Ibura",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26124556,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 1081,
+      "atendimento_especial": "Coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.94623725671051,
+            -8.120779529458705
+          ],
+          [
+            -34.94634227518291,
+            -8.121139545136897
+          ],
+          [
+            -34.946440651459,
+            -8.121109620690081
+          ],
+          [
+            -34.94645726080149,
+            -8.121148812064837
+          ],
+          [
+            -34.94655893686567,
+            -8.12112214535283
+          ],
+          [
+            -34.94652870354281,
+            -8.120981569884217
+          ],
+          [
+            -34.946617243446894,
+            -8.120954966015603
+          ],
+          [
+            -34.946705800006214,
+            -8.120931633791292
+          ],
+          [
+            -34.94673252859826,
+            -8.121026410786929
+          ],
+          [
+            -34.947096589260084,
+            -8.120929763778921
+          ],
+          [
+            -34.94710022025098,
+            -8.12100174276046
+          ],
+          [
+            -34.94718497227806,
+            -8.120870435014782
+          ],
+          [
+            -34.94718471993138,
+            -8.120818074825898
+          ],
+          [
+            -34.946615729826036,
+            -8.120640806583001
+          ],
+          [
+            -34.94623725671051,
+            -8.120779529458705
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 110,
+    "properties": {
+      "escola_codigo": 204,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Pastor JosÃ© Munguba Sobrinho",
+      "endereco": "Rua Silva Jardim 145 JORDÃƒO BAIXO",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26157888,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 471,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.928770201915235,
+            -8.139396889030532
+          ],
+          [
+            -34.92863216997379,
+            -8.139387359738238
+          ],
+          [
+            -34.92856405592849,
+            -8.139571013749164
+          ],
+          [
+            -34.928760858136954,
+            -8.139580263826218
+          ],
+          [
+            -34.928770201915235,
+            -8.139396889030532
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 109,
+    "properties": {
+      "escola_codigo": 211,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "ProfÂº. Julio de Oliveira",
+      "endereco": "Rua Dezesseis (Cafesopolis) S/N  Imbiribeira",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26158299,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 630,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.90866545106928,
+            -8.099205275968362
+          ],
+          [
+            -34.9078737951711,
+            -8.099376711645506
+          ],
+          [
+            -34.90786940703706,
+            -8.099380544616727
+          ],
+          [
+            -34.90786701593087,
+            -8.099386179092386
+          ],
+          [
+            -34.90786863847302,
+            -8.09939206420752
+          ],
+          [
+            -34.90806109476729,
+            -8.099435843877108
+          ],
+          [
+            -34.90809847784116,
+            -8.09949630111244
+          ],
+          [
+            -34.90870459784577,
+            -8.099639869816844
+          ],
+          [
+            -34.90884518400237,
+            -8.09924288488323
+          ],
+          [
+            -34.90866545106928,
+            -8.099205275968362
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 107,
+    "properties": {
+      "escola_codigo": 214,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "ProfÂº. Solano MagalhÃ£es",
+      "endereco": "Rua Jemil Asfora SN Pina",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26154820,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 377,
+      "atendimento_especial": "coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.89348311323871,
+            -8.087276172847355
+          ],
+          [
+            -34.89329979006311,
+            -8.087298115473665
+          ],
+          [
+            -34.89337335530539,
+            -8.087944611489934
+          ],
+          [
+            -34.893546065010405,
+            -8.087915687886449
+          ],
+          [
+            -34.89348311323871,
+            -8.087276172847355
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 106,
+    "properties": {
+      "escola_codigo": 213,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "ProfÂº.  SimÃµes Barbosa",
+      "endereco": "Avenida Dois Rios 855 Ibura de Baixo",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26124815,
+      "qtd_anexos": 1,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "PrÃ³-Jovem",
+      "qtd_atendidos": 913,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.939795225164964,
+            -8.11492183826343
+          ],
+          [
+            -34.93950883937113,
+            -8.115112161583959
+          ],
+          [
+            -34.93957969267164,
+            -8.1152091666685
+          ],
+          [
+            -34.939536729325376,
+            -8.115236569668074
+          ],
+          [
+            -34.93959316341286,
+            -8.115322190937057
+          ],
+          [
+            -34.93991386689442,
+            -8.115098779451895
+          ],
+          [
+            -34.939795225164964,
+            -8.11492183826343
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 105,
+    "properties": {
+      "escola_codigo": 208,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "ProfÂº. Enaldo Manoel de Souza",
+      "endereco": "Rua  Joraci Camargo, S/N-JordÃ£o Alto",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26153297,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "sim 2",
+      "qtd_atendidos": 487,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.94031184910311,
+            -8.134955374502626
+          ],
+          [
+            -34.94027354720489,
+            -8.134944667304417
+          ],
+          [
+            -34.940235703701745,
+            -8.135029246410005
+          ],
+          [
+            -34.94026854139156,
+            -8.135039979712511
+          ],
+          [
+            -34.94031184910311,
+            -8.134955374502626
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 104,
+    "properties": {
+      "escola_codigo": 209,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "ProfÂº. Florestan Fernandes",
+      "endereco": "Rua Rio Novo do Sul, 541- Ibura de Baixo",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26139090,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Nada Consta",
+      "qtd_atendidos": 1040,
+      "atendimento_especial": "Descoberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.94256566362308,
+            -8.115610000793309
+          ],
+          [
+            -34.94239514224941,
+            -8.115616939327078
+          ],
+          [
+            -34.94241124359772,
+            -8.11609000140538
+          ],
+          [
+            -34.942594042760355,
+            -8.116079942221361
+          ],
+          [
+            -34.94256566362308,
+            -8.115610000793309
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 101,
+    "properties": {
+      "escola_codigo": 206,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Poeta Paulo Bandeira da Cruz",
+      "endereco": "Rua Panelas  28  Cohab UR 2",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26125544,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Pro-Jovem",
+      "qtd_atendidos": 533,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.95574852970963,
+            -8.12189829583889
+          ],
+          [
+            -34.95545974188123,
+            -8.121799752317497
+          ],
+          [
+            -34.955382306947335,
+            -8.122080290426803
+          ],
+          [
+            -34.95557961288907,
+            -8.122147153178894
+          ],
+          [
+            -34.95566659768867,
+            -8.121989699508935
+          ],
+          [
+            -34.95568812079025,
+            -8.121996733440389
+          ],
+          [
+            -34.95574852970963,
+            -8.12189829583889
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 99,
+    "properties": {
+      "escola_codigo": 191,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "LeÃ£o",
+      "endereco": "Rua Bruno Veloso 300 Boa Viagem",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26120712,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 317,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.89875983322959,
+            -8.121304003480006
+          ],
+          [
+            -34.89870225921864,
+            -8.121310012115412
+          ],
+          [
+            -34.89874023651351,
+            -8.121628411074191
+          ],
+          [
+            -34.89889757158857,
+            -8.12160471607356
+          ],
+          [
+            -34.898903327013684,
+            -8.121603732703965
+          ],
+          [
+            -34.89890998921954,
+            -8.121591264317727
+          ],
+          [
+            -34.89890893854456,
+            -8.121572135485664
+          ],
+          [
+            -34.89887311251961,
+            -8.121507248541311
+          ],
+          [
+            -34.89875983322959,
+            -8.121304003480006
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 98,
+    "properties": {
+      "escola_codigo": 189,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Karla PatrÃ­cia",
+      "endereco": "Rua Professor Eduardo Wanderley Filho, 700-Boa Viagem",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26134002,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 901,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.89626028462764,
+            -8.108875213865113
+          ],
+          [
+            -34.89575332088749,
+            -8.10838830269393
+          ],
+          [
+            -34.89549938238533,
+            -8.108632751781302
+          ],
+          [
+            -34.895477363368734,
+            -8.108616454342082
+          ],
+          [
+            -34.8953845056872,
+            -8.108701620461751
+          ],
+          [
+            -34.89590541410206,
+            -8.109237667709179
+          ],
+          [
+            -34.89626028462764,
+            -8.108875213865113
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 89,
+    "properties": {
+      "escola_codigo": 176,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Engenheiro Umberto Gondim",
+      "endereco": "Rua das Oficinas 13 Pina",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26120674,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 769,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.88414192018651,
+            -8.084370140561829
+          ],
+          [
+            -34.883972574339325,
+            -8.084699888503433
+          ],
+          [
+            -34.88423375268031,
+            -8.0848470644222
+          ],
+          [
+            -34.884425601464194,
+            -8.084578690895285
+          ],
+          [
+            -34.88441682444215,
+            -8.084548354325145
+          ],
+          [
+            -34.88422922953366,
+            -8.084409735357097
+          ],
+          [
+            -34.884214549530064,
+            -8.08442119443633
+          ],
+          [
+            -34.88414192018651,
+            -8.084370140561829
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 86,
+    "properties": {
+      "escola_codigo": 173,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Dois Rios",
+      "endereco": "Rua IrmÃ£ Maria Evangelista 83 Cohab",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26119129,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 300,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.94465270614682,
+            -8.126748777960895
+          ],
+          [
+            -34.94448238023279,
+            -8.126847134685113
+          ],
+          [
+            -34.944688621595844,
+            -8.127154700156602
+          ],
+          [
+            -34.94484094938902,
+            -8.127052448006477
+          ],
+          [
+            -34.94465270614682,
+            -8.126748777960895
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 85,
+    "properties": {
+      "escola_codigo": 172,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "Deputado Edson Cantarelli",
+      "endereco": "Rua Rubineia 49 Ibura",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26158329,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 440,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93876160259988,
+            -8.129810283678452
+          ],
+          [
+            -34.938582276778945,
+            -8.129778189184362
+          ],
+          [
+            -34.93854270535438,
+            -8.129962412546982
+          ],
+          [
+            -34.93873022694817,
+            -8.130002003194592
+          ],
+          [
+            -34.93876160259988,
+            -8.129810283678452
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 83,
+    "properties": {
+      "escola_codigo": 169,
+      "escola_tipo": "Esc",
+      "rpa": 6,
+      "escola_nome": "CÃ­cero Franklin Cordeiro",
+      "endereco": "Rua  Felipe dos Santos 81 UR 05/Cohab",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26124513,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 861,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.95569435111864,
+            -8.136078153178442
+          ],
+          [
+            -34.95478987114814,
+            -8.135858761300916
+          ],
+          [
+            -34.954674493907,
+            -8.136303313637274
+          ],
+          [
+            -34.95558420380798,
+            -8.13651568851868
+          ],
+          [
+            -34.95569435111864,
+            -8.136078153178442
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 78,
+    "properties": {
+      "escola_codigo": 140,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Edite Braga",
+      "endereco": "Rua Nicolau Pereira 85  Afogados",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26123088,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 383,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.905133773358756,
+            -8.079158381456516
+          ],
+          [
+            -34.905062134885476,
+            -8.079088580296077
+          ],
+          [
+            -34.90495084727018,
+            -8.078967532269743
+          ],
+          [
+            -34.90487998421864,
+            -8.079063245230689
+          ],
+          [
+            -34.90497900455726,
+            -8.079169388994123
+          ],
+          [
+            -34.90499408755133,
+            -8.079184281061112
+          ],
+          [
+            -34.905060981779336,
+            -8.079242882133023
+          ],
+          [
+            -34.905133773358756,
+            -8.079158381456516
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 77,
+    "properties": {
+      "escola_codigo": 161,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Waldemar Valente",
+      "endereco": "Rua  GastÃ£o de Carvalho 360 Curado",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26124076,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 0,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 318,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.94774421508749,
+            -8.076050994235418
+          ],
+          [
+            -34.9473498036634,
+            -8.075819879276057
+          ],
+          [
+            -34.947213324980666,
+            -8.076037075328228
+          ],
+          [
+            -34.94760913893288,
+            -8.076273665847877
+          ],
+          [
+            -34.94774421508749,
+            -8.076050994235418
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 76,
+    "properties": {
+      "escola_codigo": 133,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Antonio Farias Filho",
+      "endereco": "Rua Vinte e um de Abril, S/N-San Martim",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26117576,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais",
+      "qtd_atendidos": 1191,
+      "atendimento_especial": "Coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92615198329198,
+            -8.072103051218662
+          ],
+          [
+            -34.92574009097145,
+            -8.072259503972846
+          ],
+          [
+            -34.92578014920704,
+            -8.073072877421852
+          ],
+          [
+            -34.9261962812819,
+            -8.07289442955293
+          ],
+          [
+            -34.92615198329198,
+            -8.072103051218662
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 75,
+    "properties": {
+      "escola_codigo": 154,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "ProfÂª. Maria da Paz BrandÃ£o Alves",
+      "endereco": "Rua da Felicidade 51 Sancho",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26120569,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 678,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.961432997329,
+            -8.08207308794945
+          ],
+          [
+            -34.96091009314101,
+            -8.082143549823218
+          ],
+          [
+            -34.96135660674001,
+            -8.082891415763747
+          ],
+          [
+            -34.96153961769479,
+            -8.082797913242466
+          ],
+          [
+            -34.96149429082129,
+            -8.08247931046858
+          ],
+          [
+            -34.96144095090477,
+            -8.082440146707569
+          ],
+          [
+            -34.96148148940082,
+            -8.082388214001934
+          ],
+          [
+            -34.961432997329,
+            -8.08207308794945
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 74,
+    "properties": {
+      "escola_codigo": 153,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "ProfÂº. AntÃ´nio de Brito Alves",
+      "endereco": "Rua  Ernesto Cavalcanti 41 Mustardinha",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26153386,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 1214,
+      "atendimento_especial": "Coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.91824275061252,
+            -8.07335064994951
+          ],
+          [
+            -34.91767733398357,
+            -8.0734463308682
+          ],
+          [
+            -34.91778621161955,
+            -8.074059900339606
+          ],
+          [
+            -34.91779178847828,
+            -8.074073907957713
+          ],
+          [
+            -34.91780691580607,
+            -8.074079329231168
+          ],
+          [
+            -34.91826047275828,
+            -8.074064978344525
+          ],
+          [
+            -34.91827614388645,
+            -8.07404435464097
+          ],
+          [
+            -34.91824275061252,
+            -8.07335064994951
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 72,
+    "properties": {
+      "escola_codigo": 150,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Padre Jose Mathias Delgado",
+      "endereco": "Rua  Doutor Devaldo Borges, 128- Jardim Sao Paulo",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26120780,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 675,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.9399543449496,
+            -8.0788068503593
+          ],
+          [
+            -34.939859309296125,
+            -8.078857491385351
+          ],
+          [
+            -34.94009170220328,
+            -8.079352868127728
+          ],
+          [
+            -34.94036605742893,
+            -8.079229481524216
+          ],
+          [
+            -34.940374158334954,
+            -8.079215877806549
+          ],
+          [
+            -34.94036592781746,
+            -8.079202352490697
+          ],
+          [
+            -34.940218827515984,
+            -8.078896480651103
+          ],
+          [
+            -34.9399543449496,
+            -8.0788068503593
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 70,
+    "properties": {
+      "escola_codigo": 148,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Gov. Miguel Arraes de Alencar",
+      "endereco": "Rua Doutor Gil Rodrigues dos Santos, s/n-Areias",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26177951,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Pro-Jovem",
+      "qtd_atendidos": 528,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92399585276551,
+            -8.095740618659375
+          ],
+          [
+            -34.92363823471884,
+            -8.095682223524248
+          ],
+          [
+            -34.92362608102342,
+            -8.095662071492004
+          ],
+          [
+            -34.92364781573562,
+            -8.095506850706897
+          ],
+          [
+            -34.9234252095168,
+            -8.095603483318605
+          ],
+          [
+            -34.92342030328685,
+            -8.095608968763624
+          ],
+          [
+            -34.923418149593246,
+            -8.095617171492204
+          ],
+          [
+            -34.92341654731407,
+            -8.09562591767325
+          ],
+          [
+            -34.92341826623064,
+            -8.095641749580457
+          ],
+          [
+            -34.92387565020857,
+            -8.096096390734845
+          ],
+          [
+            -34.92388687031525,
+            -8.096104091040674
+          ],
+          [
+            -34.923896361255274,
+            -8.096106226883524
+          ],
+          [
+            -34.923928198098714,
+            -8.096103896196876
+          ],
+          [
+            -34.923939103781684,
+            -8.096096576152389
+          ],
+          [
+            -34.92394368617128,
+            -8.096088802248888
+          ],
+          [
+            -34.92399585276551,
+            -8.095740618659375
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 67,
+    "properties": {
+      "escola_codigo": 145,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "JoÃ£o Pessoa Guerra",
+      "endereco": "Rua Isaac Buril 107  VÃ¡rzea",
+      "tipo_predio": "nada consta",
+      "mec_codigo": 26127784,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 240,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.958328750721385,
+            -8.055947449144247
+          ],
+          [
+            -34.95820724759383,
+            -8.055985409737149
+          ],
+          [
+            -34.958186754543654,
+            -8.056056947717764
+          ],
+          [
+            -34.9582564150951,
+            -8.056330743181473
+          ],
+          [
+            -34.95843455288661,
+            -8.056284203905676
+          ],
+          [
+            -34.958328750721385,
+            -8.055947449144247
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 66,
+    "properties": {
+      "escola_codigo": 138,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Dom Bosco",
+      "endereco": "Rua Alvenopolis 600 Jardim Sao Paulo",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26123487,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 1060,
+      "atendimento_especial": "coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.948360395762606,
+            -8.078807063651924
+          ],
+          [
+            -34.94782794733642,
+            -8.079170858134802
+          ],
+          [
+            -34.94852808947409,
+            -8.07981723052229
+          ],
+          [
+            -34.94854956415318,
+            -8.079814873490287
+          ],
+          [
+            -34.94897273752599,
+            -8.079390212377726
+          ],
+          [
+            -34.94897491328598,
+            -8.079372169002708
+          ],
+          [
+            -34.948360395762606,
+            -8.078807063651924
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 65,
+    "properties": {
+      "escola_codigo": 136,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "Chico Mendes",
+      "endereco": "Rua do Campo SN CaÃ§ote",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26170779,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 560,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93308572622622,
+            -8.103263162366312
+          ],
+          [
+            -34.932548561635,
+            -8.10310505850006
+          ],
+          [
+            -34.93245268262009,
+            -8.103361050900597
+          ],
+          [
+            -34.933040191502215,
+            -8.103445625440441
+          ],
+          [
+            -34.93308572622622,
+            -8.103263162366312
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 61,
+    "properties": {
+      "escola_codigo": 131,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "AndrÃ© de Melo",
+      "endereco": "Rua Morais e Silva, 180 - EstÃ¢ncia",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26123541,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 925,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93090665542242,
+            -8.083800128430985
+          ],
+          [
+            -34.930885281740416,
+            -8.083795222758809
+          ],
+          [
+            -34.930874163654416,
+            -8.08383407642998
+          ],
+          [
+            -34.93089618292245,
+            -8.08384273359291
+          ],
+          [
+            -34.93090665542242,
+            -8.083800128430985
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 60,
+    "properties": {
+      "escola_codigo": 155,
+      "escola_tipo": "Esc",
+      "rpa": 5,
+      "escola_nome": "ProfÂº. Potiguar Matos",
+      "endereco": "Rua Vinte e um de Abril  2191 San Martin",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26154137,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Pro-Jovem",
+      "qtd_atendidos": 432,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92574128864423,
+            -8.072259181012685
+          ],
+          [
+            -34.925413363577846,
+            -8.072385146796712
+          ],
+          [
+            -34.92546512127153,
+            -8.073207725639797
+          ],
+          [
+            -34.92577754417757,
+            -8.073074451893936
+          ],
+          [
+            -34.92574128864423,
+            -8.072259181012685
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 58,
+    "properties": {
+      "escola_codigo": 107,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Darcy Ribeiro",
+      "endereco": "Rua Odete Monteiro, 450 - Cordeiro",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26153424,
+      "qtd_anexos": 1,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/PrÃ³-Jovem",
+      "qtd_atendidos": 769,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92073928255251,
+            -8.045055877277429
+          ],
+          [
+            -34.92024637662898,
+            -8.045258994844575
+          ],
+          [
+            -34.92043716494068,
+            -8.046120122878243
+          ],
+          [
+            -34.92105229867287,
+            -8.04578419134515
+          ],
+          [
+            -34.92073928255251,
+            -8.045055877277429
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 57,
+    "properties": {
+      "escola_codigo": 109,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Divino EspÃ­rito Santo",
+      "endereco": "PraÃ§a  do  Caxanga, 127- CaxangÃ¡",
+      "tipo_predio": "Alugado",
+      "mec_codigo": 26127520,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 20,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Pro-Jovem",
+      "qtd_atendidos": 409,
+      "atendimento_especial": "coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.95446624124649,
+            -8.030052727790133
+          ],
+          [
+            -34.95379733342861,
+            -8.029831936468108
+          ],
+          [
+            -34.95376523955925,
+            -8.030871425547527
+          ],
+          [
+            -34.95405405112302,
+            -8.030810944325943
+          ],
+          [
+            -34.95407168887798,
+            -8.030882284618505
+          ],
+          [
+            -34.95503680558728,
+            -8.030668353087338
+          ],
+          [
+            -34.954940732157084,
+            -8.03021317661457
+          ],
+          [
+            -34.95480710469368,
+            -8.030171942663937
+          ],
+          [
+            -34.95446624124649,
+            -8.030052727790133
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 56,
+    "properties": {
+      "escola_codigo": 108,
+      "escola_tipo": "Esc",
+      "rpa": 4,
+      "escola_nome": "Dina de Oliveira",
+      "endereco": "Rua Sao Mateus, S/N- Iputinga",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26155850,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 20,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Pro-Jovem",
+      "qtd_atendidos": 1056,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.935284031077636,
+            -8.030119527306816
+          ],
+          [
+            -34.93527416538782,
+            -8.03011529211933
+          ],
+          [
+            -34.93434091817627,
+            -8.030327846937741
+          ],
+          [
+            -34.93432644379282,
+            -8.030338142585187
+          ],
+          [
+            -34.93432051568891,
+            -8.030353119019548
+          ],
+          [
+            -34.93435936269827,
+            -8.030615724445129
+          ],
+          [
+            -34.93539778236762,
+            -8.030378831941311
+          ],
+          [
+            -34.9352922943349,
+            -8.030125732736565
+          ],
+          [
+            -34.935284031077636,
+            -8.030119527306816
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 55,
+    "properties": {
+      "escola_codigo": 6,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "General EmÃ­dio Dantas Barreto",
+      "endereco": "Avenida da Saudade 303 Santo Amaro",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26121980,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Esc Aberta",
+      "qtd_atendidos": 367,
+      "atendimento_especial": "Nada Consta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.883720080036106,
+            -8.050783373127643
+          ],
+          [
+            -34.88361698474937,
+            -8.050643327001822
+          ],
+          [
+            -34.883598954470656,
+            -8.050643297664621
+          ],
+          [
+            -34.88325970975975,
+            -8.050870237608802
+          ],
+          [
+            -34.883218257635875,
+            -8.050898685808365
+          ],
+          [
+            -34.88314659869864,
+            -8.050934809058916
+          ],
+          [
+            -34.88310319530705,
+            -8.05095007928482
+          ],
+          [
+            -34.88304259712498,
+            -8.050992826585752
+          ],
+          [
+            -34.8831499486566,
+            -8.051154128169536
+          ],
+          [
+            -34.883720080036106,
+            -8.050783373127643
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 53,
+    "properties": {
+      "escola_codigo": 12,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "Professor JosÃ© da Costa Porto",
+      "endereco": "Rua Cabo Eutropio  660 Ilha Joana Bezerra",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26121255,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 20,
+      "sala_professora": "nao",
+      "prog": "MaisEduc/EscAbe/ProJ",
+      "qtd_atendidos": 403,
+      "atendimento_especial": "Coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.900694300332106,
+            -8.071779442699542
+          ],
+          [
+            -34.90072574343423,
+            -8.071451628804565
+          ],
+          [
+            -34.90071023625075,
+            -8.071424873416017
+          ],
+          [
+            -34.900689033371265,
+            -8.071413473904256
+          ],
+          [
+            -34.900664933596985,
+            -8.07141187350836
+          ],
+          [
+            -34.900415879806076,
+            -8.071385999158764
+          ],
+          [
+            -34.90037335053283,
+            -8.071748366629837
+          ],
+          [
+            -34.900240614810656,
+            -8.071733652597596
+          ],
+          [
+            -34.90019975384309,
+            -8.072086171527511
+          ],
+          [
+            -34.900610906145374,
+            -8.07212820109106
+          ],
+          [
+            -34.900634479522324,
+            -8.072118676619134
+          ],
+          [
+            -34.90065795751242,
+            -8.072088751322985
+          ],
+          [
+            -34.900694300332106,
+            -8.071779442699542
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 52,
+    "properties": {
+      "escola_codigo": 2,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "Almirante Soares Dutra",
+      "endereco": "Rua Camutanga 180 Cabanga",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26120658,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Projovem",
+      "qtd_atendidos": 398,
+      "atendimento_especial": "Nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.8952512872359,
+            -8.078652907022796
+          ],
+          [
+            -34.895099686876506,
+            -8.07909451993633
+          ],
+          [
+            -34.895407370469975,
+            -8.079172188542397
+          ],
+          [
+            -34.89554480227722,
+            -8.07895109682815
+          ],
+          [
+            -34.8952512872359,
+            -8.078652907022796
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 51,
+    "properties": {
+      "escola_codigo": 73,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Draomiro Chaves Aguiar",
+      "endereco": "Rua Santa Isabel 282 Casa Amarela",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26120720,
+      "qtd_anexos": 2,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Escola Aberta",
+      "qtd_atendidos": 512,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92118859497609,
+            -8.026177686329143
+          ],
+          [
+            -34.92104267560357,
+            -8.026191358882887
+          ],
+          [
+            -34.92097233481691,
+            -8.026200782096096
+          ],
+          [
+            -34.92103209514546,
+            -8.026713683315695
+          ],
+          [
+            -34.92122747754731,
+            -8.026685488378913
+          ],
+          [
+            -34.92118859497609,
+            -8.026177686329143
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 46,
+    "properties": {
+      "escola_codigo": 85,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Octavio de Meira Lins",
+      "endereco": "Avenida Jose Reboucas 141 Vasco da Gama",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26126087,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educacao",
+      "qtd_atendidos": 970,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.91664518462398,
+            -8.009953788536919
+          ],
+          [
+            -34.91624249429938,
+            -8.010096509887669
+          ],
+          [
+            -34.916362206174014,
+            -8.010423748677308
+          ],
+          [
+            -34.91676223145907,
+            -8.010260552513461
+          ],
+          [
+            -34.91664518462398,
+            -8.009953788536919
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 44,
+    "properties": {
+      "escola_codigo": 9,
+      "escola_tipo": "Esc",
+      "rpa": 1,
+      "escola_nome": "Nossa Senhora do Pilar",
+      "endereco": "Avenida Militar 65 Recife",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26147300,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "MaisEduc/EscAberta",
+      "qtd_atendidos": 220,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.86980102396206,
+            -8.058145426507638
+          ],
+          [
+            -34.86990212021665,
+            -8.058102519414575
+          ],
+          [
+            -34.87016097096018,
+            -8.058083333766119
+          ],
+          [
+            -34.8701097800236,
+            -8.057688649473102
+          ],
+          [
+            -34.86974547515033,
+            -8.057823550924217
+          ],
+          [
+            -34.86977145551752,
+            -8.05797347743703
+          ],
+          [
+            -34.86975784002156,
+            -8.058004146498568
+          ],
+          [
+            -34.869764761013165,
+            -8.05804439562826
+          ],
+          [
+            -34.86980102396206,
+            -8.058145426507638
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 40,
+    "properties": {
+      "escola_codigo": 0,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Mangabeira",
+      "endereco": "Rua do Cinema 130 Mangabeira",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26128233,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Projovem",
+      "qtd_atendidos": 403,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.901059714094515,
+            -8.024170529345973
+          ],
+          [
+            -34.90034715899825,
+            -8.02363375972404
+          ],
+          [
+            -34.90033922120149,
+            -8.023635996880584
+          ],
+          [
+            -34.900113200234436,
+            -8.024138029610517
+          ],
+          [
+            -34.90068621186681,
+            -8.024566625155126
+          ],
+          [
+            -34.90069302862598,
+            -8.02456732055262
+          ],
+          [
+            -34.90104805552269,
+            -8.024227361664325
+          ],
+          [
+            -34.90104347044262,
+            -8.024190851070886
+          ],
+          [
+            -34.901059714094515,
+            -8.024170529345973
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 39,
+    "properties": {
+      "escola_codigo": 83,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Nadir Colaco",
+      "endereco": "Rua Ida S/N  Macaxeira",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26133389,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Esc Aberta",
+      "qtd_atendidos": 1126,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.929309215842736,
+            -8.01704737360532
+          ],
+          [
+            -34.92896581019382,
+            -8.016784050811598
+          ],
+          [
+            -34.92899229238999,
+            -8.016741318536763
+          ],
+          [
+            -34.92890342679504,
+            -8.016690525993104
+          ],
+          [
+            -34.928640864412785,
+            -8.016751641820761
+          ],
+          [
+            -34.92886006214165,
+            -8.017581535165283
+          ],
+          [
+            -34.92887263710784,
+            -8.01759395229802
+          ],
+          [
+            -34.92889510742747,
+            -8.01758137107759
+          ],
+          [
+            -34.929309215842736,
+            -8.01704737360532
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 36,
+    "properties": {
+      "escola_codigo": 70,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Dom Helder Camara",
+      "endereco": "Rua Marques do Parana 320 Espinheiro",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26122570,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Esc Aberta",
+      "qtd_atendidos": 362,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.88825561178365,
+            -8.040960290363731
+          ],
+          [
+            -34.88802791194833,
+            -8.041119670012362
+          ],
+          [
+            -34.888152110958195,
+            -8.041290516979455
+          ],
+          [
+            -34.88838638113526,
+            -8.041132416154745
+          ],
+          [
+            -34.88825561178365,
+            -8.040960290363731
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 34,
+    "properties": {
+      "escola_codigo": 74,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Guabiraba",
+      "endereco": "Rua Cassiterita 395 A Guabiraba",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26171740,
+      "qtd_anexos": 2,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/ProJovem",
+      "qtd_atendidos": 731,
+      "atendimento_especial": "Coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93516363709467,
+            -7.993072441846938
+          ],
+          [
+            -34.9348851321491,
+            -7.993254334130725
+          ],
+          [
+            -34.934885163966285,
+            -7.993261085476205
+          ],
+          [
+            -34.93527632039708,
+            -7.993630554923389
+          ],
+          [
+            -34.93528817102509,
+            -7.993630499414368
+          ],
+          [
+            -34.935448559380426,
+            -7.993533547485141
+          ],
+          [
+            -34.93516363709467,
+            -7.993072441846938
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 32,
+    "properties": {
+      "escola_codigo": 65,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Corrego da Bica",
+      "endereco": "Rua Corrego da Bica 28 Passarinho",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26126362,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Esc Aberta",
+      "qtd_atendidos": 431,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.92846962351884,
+            -7.985227081322512
+          ],
+          [
+            -34.92828509087359,
+            -7.985141388792663
+          ],
+          [
+            -34.92818991538455,
+            -7.985276137911439
+          ],
+          [
+            -34.928322144880234,
+            -7.985381473665449
+          ],
+          [
+            -34.92846962351884,
+            -7.985227081322512
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 30,
+    "properties": {
+      "escola_codigo": 61,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Casa Amarela",
+      "endereco": "Rua Maria Amalia 287 Macaxeira",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26166658,
+      "qtd_anexos": 1,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 317,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.93235444162309,
+            -8.009133015068798
+          ],
+          [
+            -34.93233020288082,
+            -8.009125705431602
+          ],
+          [
+            -34.93233789490159,
+            -8.009177635504741
+          ],
+          [
+            -34.93235834060367,
+            -8.009170115581936
+          ],
+          [
+            -34.93235444162309,
+            -8.009133015068798
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 28,
+    "properties": {
+      "escola_codigo": 59,
+      "escola_tipo": "Esc",
+      "rpa": 3,
+      "escola_nome": "Cecilia Meireles",
+      "endereco": "Rua Madre Linch  SN  Macaxeira",
+      "tipo_predio": "Cedido",
+      "mec_codigo": 26175363,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 406,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.929240903098886,
+            -8.015259564147485
+          ],
+          [
+            -34.92921615548905,
+            -8.015267915078375
+          ],
+          [
+            -34.92922251679062,
+            -8.015302886830975
+          ],
+          [
+            -34.9292555559466,
+            -8.015300673608623
+          ],
+          [
+            -34.929240903098886,
+            -8.015259564147485
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 25,
+    "properties": {
+      "escola_codigo": 49,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "ProfÂª Jandira Botelho",
+      "endereco": "Rua Farias Neves Sn Campo Grande",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26155818,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 20,
+      "sala_professora": "nao",
+      "prog": "MaisEdc/EscAbrt/PJov",
+      "qtd_atendidos": 734,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.87809520162898,
+            -8.023863485957795
+          ],
+          [
+            -34.87801020450186,
+            -8.023848001625815
+          ],
+          [
+            -34.87786152160958,
+            -8.02383457166321
+          ],
+          [
+            -34.877824270595994,
+            -8.023813578782057
+          ],
+          [
+            -34.877599737115084,
+            -8.023849873999348
+          ],
+          [
+            -34.877580387834,
+            -8.023874651895918
+          ],
+          [
+            -34.87754297833607,
+            -8.024204606332576
+          ],
+          [
+            -34.87757831497595,
+            -8.024193863751375
+          ],
+          [
+            -34.87808424979478,
+            -8.024175683665483
+          ],
+          [
+            -34.87809520162898,
+            -8.023863485957795
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 23,
+    "properties": {
+      "escola_codigo": 46,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Paulo VI",
+      "endereco": "Rua Guaira 200 Linha Do Tiro",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26128390,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 20,
+      "sala_professora": "nao",
+      "prog": "MaisEduc/EscAbt/PJov",
+      "qtd_atendidos": 2049,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.90503483768089,
+            -8.007502401141402
+          ],
+          [
+            -34.90458114554833,
+            -8.007165076209334
+          ],
+          [
+            -34.90427653213258,
+            -8.007562473218735
+          ],
+          [
+            -34.90492565509536,
+            -8.008025235327265
+          ],
+          [
+            -34.904963497727366,
+            -8.008026946437903
+          ],
+          [
+            -34.90506024414904,
+            -8.007677651025876
+          ],
+          [
+            -34.90497484699588,
+            -8.007619590000829
+          ],
+          [
+            -34.90503483768089,
+            -8.007502401141402
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 21,
+    "properties": {
+      "escola_codigo": 52,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Sao Joao Batista",
+      "endereco": "Avenida Anibal Benevolo 1800  Linha do Tiro",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26128748,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "MaisEduc/EscAbert",
+      "qtd_atendidos": 502,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.904600523171865,
+            -8.011593482175336
+          ],
+          [
+            -34.90444697875768,
+            -8.011684700798904
+          ],
+          [
+            -34.90456026037192,
+            -8.011849456190879
+          ],
+          [
+            -34.904507120557966,
+            -8.011883150520124
+          ],
+          [
+            -34.90463031675086,
+            -8.012057698173377
+          ],
+          [
+            -34.90481331369596,
+            -8.011932893642452
+          ],
+          [
+            -34.904600523171865,
+            -8.011593482175336
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 20,
+    "properties": {
+      "escola_codigo": 44,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Olindina Monteiro de Oliveira",
+      "endereco": "Rua da Bela Vista 315 Dois Unidos",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26128934,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 20,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/EscAberta",
+      "qtd_atendidos": 886,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.90662063893327,
+            -8.002682032670753
+          ],
+          [
+            -34.90659405497,
+            -8.002677190324135
+          ],
+          [
+            -34.90657735711829,
+            -8.002656582324388
+          ],
+          [
+            -34.906535005181375,
+            -8.00265264094366
+          ],
+          [
+            -34.906434491919434,
+            -8.002636556236528
+          ],
+          [
+            -34.90632729952846,
+            -8.002612229201652
+          ],
+          [
+            -34.90627909831558,
+            -8.00260004075408
+          ],
+          [
+            -34.906259192583626,
+            -8.002603441594504
+          ],
+          [
+            -34.90623930224027,
+            -8.002610153070517
+          ],
+          [
+            -34.90622689306003,
+            -8.002619312570957
+          ],
+          [
+            -34.906207867183,
+            -8.00263346598088
+          ],
+          [
+            -34.906193899187215,
+            -8.002664145047373
+          ],
+          [
+            -34.90620566312288,
+            -8.002873428327621
+          ],
+          [
+            -34.90631190174089,
+            -8.002871283167043
+          ],
+          [
+            -34.90631277481434,
+            -8.002880380415286
+          ],
+          [
+            -34.906579306413455,
+            -8.002897352660328
+          ],
+          [
+            -34.90662063893327,
+            -8.002682032670753
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 19,
+    "properties": {
+      "escola_codigo": 51,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Santa Cecilia",
+      "endereco": "Rua Alice Gomes 49 Campo Grande",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26122600,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Esc Aberta",
+      "qtd_atendidos": 357,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.88052954258587,
+            -8.036795213462407
+          ],
+          [
+            -34.88052123310624,
+            -8.036776517083133
+          ],
+          [
+            -34.88044477353393,
+            -8.036754620144311
+          ],
+          [
+            -34.880361341717524,
+            -8.037004402977914
+          ],
+          [
+            -34.880446073079604,
+            -8.037036800967053
+          ],
+          [
+            -34.88052954258587,
+            -8.036795213462407
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 17,
+    "properties": {
+      "escola_codigo": 0,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Mario Melo",
+      "endereco": "Rua Oliveira Fonseca 318 Campo Grande",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26122529,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "MaisEduc/EscAberta",
+      "qtd_atendidos": 1169,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.879913524755565,
+            -8.02833661750835
+          ],
+          [
+            -34.87930056938873,
+            -8.028221031639445
+          ],
+          [
+            -34.87923497717591,
+            -8.028485849792842
+          ],
+          [
+            -34.87933342792847,
+            -8.028505748302596
+          ],
+          [
+            -34.87931712578789,
+            -8.02859276214495
+          ],
+          [
+            -34.8798631788994,
+            -8.02868830626341
+          ],
+          [
+            -34.879913524755565,
+            -8.02833661750835
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 14,
+    "properties": {
+      "escola_codigo": 40,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Monsenhor Viana",
+      "endereco": "Rua Taguatinga 145 Beberibe",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26128705,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "nao",
+      "qtd_atendidos": 490,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.89840228836411,
+            -8.004474296230358
+          ],
+          [
+            -34.89833137542557,
+            -8.004530288174708
+          ],
+          [
+            -34.89845787824337,
+            -8.00467123725287
+          ],
+          [
+            -34.898529156045996,
+            -8.004616672948774
+          ],
+          [
+            -34.89840228836411,
+            -8.004474296230358
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 11,
+    "properties": {
+      "escola_codigo": 26,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Antonio Heraclio do Rego",
+      "endereco": "Rua Manoel Silva 134 FundÃ£o",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26128640,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "sim",
+      "laboratorio_informatica": 19,
+      "sala_professora": "nao",
+      "prog": "MaisEduc/EscAbt/PJv",
+      "qtd_atendidos": 932,
+      "atendimento_especial": "Coberta"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.88917916404541,
+            -8.018432052451166
+          ],
+          [
+            -34.888854807931935,
+            -8.01835800769638
+          ],
+          [
+            -34.88896815862298,
+            -8.01913885898333
+          ],
+          [
+            -34.88914537968415,
+            -8.019604264300375
+          ],
+          [
+            -34.88945052038891,
+            -8.019477844956585
+          ],
+          [
+            -34.8893519042502,
+            -8.019058962099805
+          ],
+          [
+            -34.889210531690665,
+            -8.018434513242932
+          ],
+          [
+            -34.88917916404541,
+            -8.018432052451166
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 6,
+    "properties": {
+      "escola_codigo": 21,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Alto do MaracanÃ£",
+      "endereco": "Rua Vila Flor 356 Dois Unidos",
+      "tipo_predio": "PrÃ³prio",
+      "mec_codigo": 26136300,
+      "qtd_anexos": 0,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 10,
+      "sala_professora": "nao",
+      "prog": "Mais Educ/Esc Abert",
+      "qtd_atendidos": 559,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.90929137371305,
+            -8.002549878715865
+          ],
+          [
+            -34.90911946783322,
+            -8.002311312518195
+          ],
+          [
+            -34.90895303910997,
+            -8.002522787463619
+          ],
+          [
+            -34.908951371196295,
+            -8.002527852542984
+          ],
+          [
+            -34.908953125422855,
+            -8.00254132952986
+          ],
+          [
+            -34.908988981255305,
+            -8.002615331736422
+          ],
+          [
+            -34.90899406256332,
+            -8.002616994322763
+          ],
+          [
+            -34.90900082657101,
+            -8.0026169630362
+          ],
+          [
+            -34.90929137371305,
+            -8.002549878715865
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "id": 4,
+    "properties": {
+      "escola_codigo": 20,
+      "escola_tipo": "Esc",
+      "rpa": 2,
+      "escola_nome": "Alda Romeu",
+      "endereco": "R Corrego Do Deodato, 401-Ãgua Fria",
+      "tipo_predio": "Alugado",
+      "mec_codigo": 26128110,
+      "qtd_anexos": 2,
+      "existe_biblioteca": "sim",
+      "existe_quadra": "nao",
+      "laboratorio_informatica": 0,
+      "sala_professora": "nao",
+      "prog": "Mais EducaÃ§Ã£o",
+      "qtd_atendidos": 279,
+      "atendimento_especial": "nenhum"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -34.90092585188209,
+            -8.013756928855765
+          ],
+          [
+            -34.90099087596731,
+            -8.013751025506794
+          ],
+          [
+            -34.90097079590257,
+            -8.013663860599824
+          ],
+          [
+            -34.90095148791851,
+            -8.0135857301478
+          ],
+          [
+            -34.9009023065088,
+            -8.013599096772955
+          ],
+          [
+            -34.90092251091406,
+            -8.013724189694729
+          ],
+          [
+            -34.90092585188209,
+            -8.013756928855765
+          ]
+        ]
+      ]
+    }
+  }
+]
