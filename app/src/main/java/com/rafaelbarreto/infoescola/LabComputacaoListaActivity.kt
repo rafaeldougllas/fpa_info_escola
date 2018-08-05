@@ -1,13 +1,10 @@
 package com.rafaelbarreto.infoescola
 
 import android.content.Intent
-import android.os.Build
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.app.ActionBar
-import android.util.Log
+import android.support.v7.app.AppCompatActivity
 import android.widget.ListView
-import com.google.gson.*
+import com.google.gson.Gson
 
 class LabComputacaoListaActivity : AppCompatActivity() {
 
@@ -37,6 +34,7 @@ class LabComputacaoListaActivity : AppCompatActivity() {
             startActivity(detailIntent)
         }
     }
+
 
     fun getDatas(): ArrayList<Escola> {
 //        val schoolObj1 = Escola("Escola 9","Rua ali do lado da esquina 99","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")

@@ -3,12 +3,16 @@ package com.rafaelbarreto.infoescola
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import android.os.Parcelable
 import android.support.v4.content.res.ResourcesCompat
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_escola_detalhe.*
 
+
+
 class EscolaDetalheActivity : AppCompatActivity() {
+    private lateinit var schoolObj:Escola
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,7 +44,10 @@ class EscolaDetalheActivity : AppCompatActivity() {
         detail_label_sports_court.text = resources.getString(R.string.menu_item_sports_court)
 
         //Recovery the object passed on intent
-        val schoolObj = intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED")
+        if(intent.extras != null){
+            schoolObj = intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED")
+        }
+
 
         //Setting info`s object in xml
         detail_school_name.text = schoolObj.escola_nome
@@ -54,7 +61,7 @@ class EscolaDetalheActivity : AppCompatActivity() {
 
         //Adding listener event in button
         button_how_get_there.setOnClickListener{
-            openLocationScreen(this)
+            openLocationScreen(this, schoolObj)
         }
     }
 
@@ -67,8 +74,26 @@ class EscolaDetalheActivity : AppCompatActivity() {
     }
 
     //To open map screen with school`s location
-    fun openLocationScreen(context: Activity){
-        val intent = Intent(this, LocationActivity::class.java)
-        context.startActivity(intent)
+    fun openLocationScreen(context: Activity, detailObejct: Escola){
+        val locationIntent = Intent(this, LocationActivity::class.java)
+        locationIntent.putExtra("SCHOOL_OBJ_SELECTED",detailObejct)
+        context.startActivityForResult(locationIntent,1)
     }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if (requestCode == 1 && resultCode == Activity.RESULT_OK) {
+            schoolObj = data.getParcelableExtra<Parcelable>("key") as Escola
+        }
+    }
+
+//    override fun onResume() {
+//        super.onResume()
+//        if(intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED") != null){
+//
+//            schoolObj = intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED") as Escola
+//
+//        }
+//    }
 }

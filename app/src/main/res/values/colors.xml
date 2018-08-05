@@ -15,4 +15,5 @@
     <color name="brown">#A1887F</color>
     <color name="orange">#ff720d</color>
     <color name="black_overlay">#66000000</color>
+    <color name="splash_background_color">#3ca3b1</color>
 </resources>

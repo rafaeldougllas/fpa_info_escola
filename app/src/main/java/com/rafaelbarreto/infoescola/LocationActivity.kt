@@ -1,10 +1,13 @@
 package com.rafaelbarreto.infoescola
 
+import android.app.Activity
+import android.content.Intent
 import android.graphics.Color
 import android.os.AsyncTask
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import android.view.MenuItem
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -16,8 +19,11 @@ import com.google.gson.Gson
 import okhttp3.OkHttpClient
 import okhttp3.Request
 
+
+
 class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
 
+    private lateinit var schoolObj:Escola
     private lateinit var mMap: GoogleMap
     lateinit var mapFragment : SupportMapFragment
 
@@ -28,6 +34,11 @@ class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
         //Top of view
         supportActionBar?.title = resources.getString(R.string.btn_how_get_there)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        //Recovery the object passed on intent
+        if(intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED") != null){
+            schoolObj = intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED")
+        }
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         mapFragment = supportFragmentManager
@@ -52,6 +63,20 @@ class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
 
         })
     }
+
+    override fun onBackPressed() {
+        val data = Intent()
+        data.putExtra("key", schoolObj)
+        setResult(Activity.RESULT_OK, data)
+        //finish()
+        super.onBackPressed()
+    }
+    //To make back button work in many listViewsActivities
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        onBackPressed()
+        return true
+    }
+    //TODO ligar a api json e fazer a splash screen(Colocar a imagem correta e cores), colocar tela de contato
 
     /**
      * Manipulates the map once available.
