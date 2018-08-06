@@ -1,5 +1,6 @@
 package com.rafaelbarreto.infoescola
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.graphics.Color
@@ -23,10 +24,11 @@ import okhttp3.Request
 
 class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
 
-    private lateinit var schoolObj:Escola
+    private lateinit var schoolObj:School
     private lateinit var mMap: GoogleMap
     lateinit var mapFragment : SupportMapFragment
 
+    @SuppressLint("MissingPermission")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_location)
@@ -36,8 +38,8 @@ class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         //Recovery the object passed on intent
-        if(intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED") != null){
-            schoolObj = intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED")
+        if(intent.extras.getParcelable<School>("SCHOOL_OBJ_SELECTED") != null){
+            schoolObj = intent.extras.getParcelable<School>("SCHOOL_OBJ_SELECTED")
         }
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -46,14 +48,20 @@ class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(OnMapReadyCallback {
             mMap = it
             Log.d("GoogleMap", "before isMyLocationEnabled")
-//            googleMap.isMyLocationEnabled = true
+
+            //mMap.isMyLocationEnabled = true
+
+
             val location1 = LatLng(-8.181969, -34.925189)
             mMap.addMarker(MarkerOptions().position(location1).title("My Location"))
-            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(location1,5f))
+            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(location1,10f))
 
             Log.d("GoogleMap", "before location3")
+            Log.d("RAFAEL LOCATION:",schoolObj.geometry.coordinates[0][0][0].toString())
 
-            val location3 = LatLng(-8.068827,-34.891059)
+            val lat = schoolObj.geometry.coordinates[0][0][1]
+            val longit = schoolObj.geometry.coordinates[0][0][0]
+            val location3 = LatLng(lat,longit)
             mMap.addMarker(MarkerOptions().position(location3).title("Bangalore"))
 
             Log.d("GoogleMap", "before URL")

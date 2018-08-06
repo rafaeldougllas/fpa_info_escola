@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ListView
+import com.google.gson.Gson
 
 class RefeicoesListaActivity : AppCompatActivity() {
 
@@ -34,13 +35,119 @@ class RefeicoesListaActivity : AppCompatActivity() {
         }
     }
 
-    fun getDatas(): ArrayList<Escola> {
-        val schoolObj1 = Escola("Escola 13","Rua ali do lado da esquina 99","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")
-        val schoolObj2 = Escola("Escola 14","Rua atras do posto ribeiro da esquina 403","https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg")
-        val schoolList = ArrayList<Escola>()
-        schoolList.add(schoolObj1)
-        schoolList.add(schoolObj2)
+    fun getDatas(): ArrayList<School> {
+        val jsonStr = getJsonSt()
+        val schoolListFromServ = Gson().fromJson(jsonStr, Array<School>::class.java)
+        val schoolLi = schoolListFromServ.toCollection(ArrayList())
+        println("RAAAFAAAAAAAAAA2")
+        println(schoolLi)
 
-        return schoolList
+
+
+
+        return schoolLi
+    }
+
+    fun getJsonSt(): String{
+        val js = """[
+          {
+            "type": "Feature",
+            "id": 343,
+            "properties": {
+              "escola_codigo": 179,
+              "escola_tipo": "Esc",
+              "rpa": 6,
+              "escola_nome": "Engenheiro Henoch Coutinho de Melo",
+              "endereco": "Rua das Oficinas, 12-Pina",
+              "tipo_predio": "Próprio",
+              "mec_codigo": 26155869,
+              "qtd_anexos": 0,
+              "existe_biblioteca": "nao",
+              "existe_quadra": "nao",
+              "laboratorio_informatica": 10,
+              "sala_professora": "nao",
+              "prog": "Pro-Jovem",
+              "qtd_atendidos": 354,
+              "atendimento_especial": "nenhum"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -34.885070248302306,
+                    -8.084520507420278
+                  ],
+                  [
+                    -34.885059782437146,
+                    -8.084541612587781
+                  ],
+                  [
+                    -34.88510929292629,
+                    -8.084587007607203
+                  ],
+                  [
+                    -34.88511972709553,
+                    -8.084558883320735
+                  ],
+                  [
+                    -34.885070248302306,
+                    -8.084520507420278
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "id": 341,
+            "properties": {
+              "escola_codigo": 178,
+              "escola_tipo": "Esc",
+              "rpa": 6,
+              "escola_nome": "Futuro Feliz",
+              "endereco": "Rua Ibirajuba, 440 - Cohab - Três Carneiros",
+              "tipo_predio": "Próprio",
+              "mec_codigo": 26124610,
+              "qtd_anexos": 0,
+              "existe_biblioteca": "sim",
+              "existe_quadra": "nao",
+              "laboratorio_informatica": 10,
+              "sala_professora": "nao",
+              "prog": "nao",
+              "qtd_atendidos": 341,
+              "atendimento_especial": "nenhum"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -34.95835093451718,
+                    -8.125672211268201
+                  ],
+                  [
+                    -34.95829656401024,
+                    -8.12569162880759
+                  ],
+                  [
+                    -34.95829665690688,
+                    -8.125710783144433
+                  ],
+                  [
+                    -34.958360653718664,
+                    -8.125694512309401
+                  ],
+                  [
+                    -34.95835093451718,
+                    -8.125672211268201
+                  ]
+                ]
+              ]
+            }
+          }
+          ]
+                  """
+        return js
     }
 }

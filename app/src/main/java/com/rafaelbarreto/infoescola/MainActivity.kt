@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.menu_main.*
 
 
 class MainActivity : AppCompatActivity() {
-    val SPLASH_TIME_OUT = 4000
+    val SPLASH_TIME_OUT = 2000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

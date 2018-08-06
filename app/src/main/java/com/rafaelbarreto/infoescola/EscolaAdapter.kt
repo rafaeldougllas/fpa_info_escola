@@ -12,7 +12,7 @@ import android.widget.TextView
 import com.squareup.picasso.Picasso
 
 class EscolaAdapter(private val context: Context,
-                    private val dataSource: ArrayList<Escola>) : BaseAdapter() {
+                    private val dataSource: ArrayList<School>) : BaseAdapter() {
 
 
     private val inflater: LayoutInflater
@@ -60,12 +60,13 @@ class EscolaAdapter(private val context: Context,
         val addressTextView = holder.addressTextView
         val thumbnailImageView = holder.thumbnailImageView
 
-        val escola = getItem(position) as Escola
+        val escola = getItem(position) as School
 
-        nameTextView.text = escola.escola_nome
-        addressTextView.text = escola.endereco
+        nameTextView.text = escola.properties.escola_nome
+        addressTextView.text = escola.properties.endereco
 
-        Picasso.with(context).load(escola.imageUrl).placeholder(R.mipmap.ic_launcher).into(thumbnailImageView)
+        val imageUrl = "https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg"
+        Picasso.with(context).load(imageUrl).placeholder(R.mipmap.ic_launcher).into(thumbnailImageView)
 
         //Muda as fontes
         val titleTypeFace = ResourcesCompat.getFont(context, R.font.josefinsans_bold)

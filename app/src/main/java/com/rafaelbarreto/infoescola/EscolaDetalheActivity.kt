@@ -11,8 +11,10 @@ import kotlinx.android.synthetic.main.activity_escola_detalhe.*
 
 
 
+
+
 class EscolaDetalheActivity : AppCompatActivity() {
-    private lateinit var schoolObj:Escola
+    private lateinit var schoolObj:School
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,19 +47,19 @@ class EscolaDetalheActivity : AppCompatActivity() {
 
         //Recovery the object passed on intent
         if(intent.extras != null){
-            schoolObj = intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED")
+            schoolObj = intent.extras.getParcelable<School>("SCHOOL_OBJ_SELECTED")
         }
 
 
         //Setting info`s object in xml
-        detail_school_name.text = schoolObj.escola_nome
-        detail_address.text = schoolObj.endereco
-        detail_edu_profe.text = "Teste"
-        detail_has_meals.text = "Teste"
-        detail_lab_computer.text = "Teste"
-        detail_library.text = "Teste"
-        detail_special_attention.text = "Teste"
-        detail_sports_court.text = "Teste"
+        detail_school_name.text = schoolObj.properties.escola_nome
+        detail_address.text = schoolObj.properties.endereco
+        detail_edu_profe.text = "Sem informacao"
+        detail_has_meals.text = "Sem informacao"
+        detail_lab_computer.text = schoolObj.properties.laboratorio_informatica.toString()
+        detail_library.text = schoolObj.properties.existe_biblioteca
+        detail_special_attention.text = schoolObj.properties.atendimento_especial
+        detail_sports_court.text = schoolObj.properties.existe_quadra
 
         //Adding listener event in button
         button_how_get_there.setOnClickListener{
@@ -74,7 +76,7 @@ class EscolaDetalheActivity : AppCompatActivity() {
     }
 
     //To open map screen with school`s location
-    fun openLocationScreen(context: Activity, detailObejct: Escola){
+    fun openLocationScreen(context: Activity, detailObejct: School){
         val locationIntent = Intent(this, LocationActivity::class.java)
         locationIntent.putExtra("SCHOOL_OBJ_SELECTED",detailObejct)
         context.startActivityForResult(locationIntent,1)
@@ -84,16 +86,7 @@ class EscolaDetalheActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
 
         if (requestCode == 1 && resultCode == Activity.RESULT_OK) {
-            schoolObj = data.getParcelableExtra<Parcelable>("key") as Escola
+            schoolObj = data.getParcelableExtra<Parcelable>("key") as School
         }
     }
-
-//    override fun onResume() {
-//        super.onResume()
-//        if(intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED") != null){
-//
-//            schoolObj = intent.extras.getParcelable<Escola>("SCHOOL_OBJ_SELECTED") as Escola
-//
-//        }
-//    }
 }
