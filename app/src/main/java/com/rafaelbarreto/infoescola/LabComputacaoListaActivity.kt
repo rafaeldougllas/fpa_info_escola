@@ -26,7 +26,6 @@ class LabComputacaoListaActivity : AppCompatActivity() {
         val adapter = EscolaAdapter(this, schoolList)
         listView.adapter = adapter
 
-        val context = this
         listView.setOnItemClickListener { _, _, position, _ ->
             val selectedSchool = schoolList[position]
 
@@ -43,21 +42,21 @@ class LabComputacaoListaActivity : AppCompatActivity() {
 //        val schoolList = ArrayList<Escola>()
 //        schoolList.add(schoolObj1)
 //        schoolList.add(schoolObj2)
-
-        val json = """
-           [{ "escola_nome": "Escola 9",
-             "endereco": "Rua ali do lado da esquina 99",
-             "imageUrl": "https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg"
-           },{ "escola_nome": "Escola 10",
-             "endereco": "Rua ali do lado da esquina 100",
-             "imageUrl": "https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg"
-           }]
-        """
-
-        val schoolListFromServer = Gson().fromJson(json, Array<Escola>::class.java)
-        val schoolList = schoolListFromServer.toCollection(ArrayList())
-        println("RAAAFAAAAAAAAAA")
-        println(schoolListFromServer[1])
+//
+//        val json = """
+//           [{ "escola_nome": "Escola 9",
+//             "endereco": "Rua ali do lado da esquina 99",
+//             "imageUrl": "https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg"
+//           },{ "escola_nome": "Escola 10",
+//             "endereco": "Rua ali do lado da esquina 100",
+//             "imageUrl": "https://thumbs.dreamstime.com/b/country-school-building-illustration-33993929.jpg"
+//           }]
+//        """
+//
+//        val schoolListFromServer = Gson().fromJson(json, Array<Escola>::class.java)
+//        val schoolList = schoolListFromServer.toCollection(ArrayList())
+//        println("RAAAFAAAAAAAAAA")
+//        println(schoolListFromServer[1])
 
 
         val jsonStr = getJsonSt()
@@ -65,9 +64,6 @@ class LabComputacaoListaActivity : AppCompatActivity() {
         val schoolLi = schoolListFromServ.toCollection(ArrayList())
         println("RAAAFAAAAAAAAAA2")
         println(schoolLi)
-
-
-
 
         return schoolLi
     }

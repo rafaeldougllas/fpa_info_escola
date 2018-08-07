@@ -1,14 +1,22 @@
 package com.rafaelbarreto.infoescola
 
+import android.Manifest
 import android.annotation.SuppressLint
+import android.widget.Toast
 import android.app.Activity
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.graphics.Color
 import android.os.AsyncTask
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.MenuItem
+import android.location.Location
+import android.support.v4.app.ActivityCompat
+import android.support.v7.app.AlertDialog
+import com.google.android.gms.common.api.GoogleApiClient
+import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -16,17 +24,25 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.maps.model.PolylineOptions
+import com.google.android.gms.common.ConnectionResult
+import com.google.android.gms.maps.model.CircleOptions
+
+
 import com.google.gson.Gson
+import kotlinx.android.synthetic.main.activity_location.*
 import okhttp3.OkHttpClient
 import okhttp3.Request
 
 
 
-class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
+class LocationActivity : AppCompatActivity(), OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     private lateinit var schoolObj:School
     private lateinit var mMap: GoogleMap
     lateinit var mapFragment : SupportMapFragment
+    var mGoogleApiClient: GoogleApiClient? = null
+    var latitude : Double = 0.0
+    var longitude : Double = 0.0
 
     @SuppressLint("MissingPermission")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,16 +61,97 @@ class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         mapFragment = supportFragmentManager
                 .findFragmentById(R.id.map) as SupportMapFragment
-        mapFragment.getMapAsync(OnMapReadyCallback {
-            mMap = it
-            Log.d("GoogleMap", "before isMyLocationEnabled")
+        mapFragment?.getMapAsync(this)
 
-            //mMap.isMyLocationEnabled = true
+        // Set up the GoogleApiClient object
+        mGoogleApiClient = GoogleApiClient.Builder(this)
+                .addConnectionCallbacks(this)
+                .addOnConnectionFailedListener(this)
+                .addApi(LocationServices.API)
+                .build()
 
+        // Require permitions
+        PermissionUtils.validate(this, 0,
+                Manifest.permission.ACCESS_COARSE_LOCATION,
+                Manifest.permission.ACCESS_FINE_LOCATION)
 
-            val location1 = LatLng(-8.181969, -34.925189)
-            mMap.addMarker(MarkerOptions().position(location1).title("My Location"))
-            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(location1,10f))
+    }
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+
+        for (result in grantResults) {
+            if (result == PackageManager.PERMISSION_DENIED) {
+                // Permission denied, execute something
+                alertAndFinish()
+                return
+            }
+        }
+        // Its all ok
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        // Connecting to Google Play Services
+        mGoogleApiClient?.connect()
+    }
+
+    override fun onStop() {
+        // Disconnect to Google Play Services
+        mGoogleApiClient?.disconnect()
+        super.onStop()
+    }
+
+    override fun onConnected(bundle: Bundle?) {
+        //toast("Conectado no Google Play Services!")
+        Log.d("Rafaaa","Erro ao conectar: ")
+        getLastLocation()
+    }
+
+    override fun onConnectionSuspended(cause: Int) {
+        //toast("Conexão interrompida.")
+        Log.d("Rafaaa","Erro ao conectar: ")
+    }
+
+    override fun onConnectionFailed(connectionResult: ConnectionResult) {
+        //toast("Erro ao conectar: " + connectionResult)
+        Log.d("Rafaaa","Erro ao conectar: " + connectionResult)
+    }
+
+    private fun getLastLocation() {
+
+        val fusedClient = LocationServices.getFusedLocationProviderClient(this)
+
+        // Verifica permissões
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // Este "if" o Android Studio pede para colocar.
+            // Alguma permissão foi negada, agora é com você :-)
+            alertAndFinish()
+            return
+        }
+
+        // Fused Location Provider API
+        fusedClient.lastLocation
+                .addOnSuccessListener { location ->
+                    // Atualiza a localização do mapa
+                    setMapLocation(location)
+                }
+                .addOnFailureListener {
+                    Log.d("RAFAAA", "Não foi possível ao buscar a localização do GPS")
+                }
+    }
+
+    // Atualiza a coordenada do mapa
+    private fun setMapLocation(l: Location) {
+        if (mMap != null) {
+            latitude = l.latitude
+            longitude = l.longitude
+
+            val currrentLocation = LatLng(l.latitude, l.longitude)
+            mMap.addMarker(MarkerOptions().position(currrentLocation).title(resources.getString(R.string.my_location)))
+            val update = CameraUpdateFactory.newLatLngZoom(currrentLocation, 10f)
+            mMap?.animateCamera(update)
 
             Log.d("GoogleMap", "before location3")
             Log.d("RAFAEL LOCATION:",schoolObj.geometry.coordinates[0][0][0].toString())
@@ -62,14 +159,13 @@ class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
             val lat = schoolObj.geometry.coordinates[0][0][1]
             val longit = schoolObj.geometry.coordinates[0][0][0]
             val location3 = LatLng(lat,longit)
-            mMap.addMarker(MarkerOptions().position(location3).title("Bangalore"))
+            mMap.addMarker(MarkerOptions().position(location3).title(resources.getString(R.string.destiny)))
 
             Log.d("GoogleMap", "before URL")
-            val URL = getDirectionURL(location1,location3)
+            val URL = getDirectionURL(currrentLocation,location3)
             Log.d("GoogleMap", "URL : $URL")
             GetDirection(URL).execute()
-
-        })
+        }
     }
 
     override fun onBackPressed() {
@@ -86,17 +182,22 @@ class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
     }
     //TODO ligar a api json e fazer a splash screen(Colocar a imagem correta e cores), colocar tela de contato
 
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
-    override fun onMapReady(googleMap: GoogleMap) {
+    private fun alertAndFinish() {
+        run {
+            val builder = AlertDialog.Builder(this)
+            builder.setTitle(R.string.app_name).setMessage("Para utilizar este aplicativo, você precisa aceitar as permissões.")
+            // Add the buttons
+            builder.setPositiveButton("OK") { dialog, id -> finish() }
+            val dialog = builder.create()
+            dialog.show()
+        }
+    }
 
+    override fun onMapReady(map: GoogleMap) {
+        this.mMap = map
+
+        // Configura o tipo do mapa
+        map.mapType = GoogleMap.MAP_TYPE_NORMAL
     }
 
     fun getDirectionURL(origin:LatLng,dest:LatLng) : String{
@@ -174,4 +275,8 @@ class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
 
         return poly
     }
+
+//    fun toast(s: String) {
+//        Toast.makeText(this, s, Toast.LENGTH_SHORT).show()
+//    }
 }

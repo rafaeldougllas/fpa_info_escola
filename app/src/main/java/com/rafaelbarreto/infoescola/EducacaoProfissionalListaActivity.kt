@@ -25,7 +25,6 @@ class EducacaoProfissionalListaActivity : AppCompatActivity() {
         val adapter = EscolaAdapter(this, schoolList)
         listView.adapter = adapter
 
-        val context = this
         listView.setOnItemClickListener { _, _, position, _ ->
             val selectedSchool = schoolList[position]
 

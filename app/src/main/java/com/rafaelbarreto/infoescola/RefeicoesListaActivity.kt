@@ -25,7 +25,6 @@ class RefeicoesListaActivity : AppCompatActivity() {
         val adapter = EscolaAdapter(this, schoolList)
         listView.adapter = adapter
 
-        val context = this
         listView.setOnItemClickListener { _, _, position, _ ->
             val selectedSchool = schoolList[position]
 
@@ -41,9 +40,6 @@ class RefeicoesListaActivity : AppCompatActivity() {
         val schoolLi = schoolListFromServ.toCollection(ArrayList())
         println("RAAAFAAAAAAAAAA2")
         println(schoolLi)
-
-
-
 
         return schoolLi
     }
