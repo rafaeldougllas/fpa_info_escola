@@ -1,9 +1,9 @@
-# AlzheimersCares
+# Info Escola (School Info)
 ## Tools
-> ( Kotlin + Room + Android Studio ) <br>
+> ( Kotlin + Android Studio ) <br>
 
 ## Description
-* Application to help caregivers and relatives of people with Alzheimer's, has features to learn more about the disease, useful links, reminders of everyday activities and other functionalities. <br>
+* Application to provide information about municipal schools in the state of pernambuco (Brazil) <br>
 
 ## Target
 * Application created in the discipline of mobile projects of the academic master's degree from UFRPE. <br>
